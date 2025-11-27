@@ -18,3 +18,12 @@ variable "schema_file_path" {
   type        = string
   description = "Path to the SQL schema file"
 }
+
+variable "username" {
+  type = string
+}
+
+variable "notification_email" {
+  type        = string
+  description = "Email address for notifications"
+}

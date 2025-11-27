@@ -1,0 +1,3326 @@
+{
+  "sellers": [
+    {
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Flores, Obrien and Brown",
+      "category": "Beauty",
+      "status": "active"
+    },
+    {
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Ruiz, Boyd and Gardner",
+      "category": "Books",
+      "status": "pending"
+    },
+    {
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Parker, Thomas and Lewis",
+      "category": "Electronics",
+      "status": "active"
+    },
+    {
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Ford Group",
+      "category": "Books",
+      "status": "suspended"
+    },
+    {
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Suarez Group",
+      "category": "Books",
+      "status": "pending"
+    },
+    {
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Nielsen, Owen and Payne",
+      "category": "Books",
+      "status": "suspended"
+    },
+    {
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Jordan-Hoffman",
+      "category": "Beauty",
+      "status": "suspended"
+    },
+    {
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Harvey and Sons",
+      "category": "Books",
+      "status": "suspended"
+    },
+    {
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Ferrell-Williams",
+      "category": "Clothing",
+      "status": "pending"
+    },
+    {
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Allen, Mcintosh and Lloyd",
+      "category": "Beauty",
+      "status": "active"
+    },
+    {
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Cobb PLC",
+      "category": "Clothing",
+      "status": "pending"
+    },
+    {
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Pena-Kemp",
+      "category": "Clothing",
+      "status": "suspended"
+    },
+    {
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Brown, Williams and Tucker",
+      "category": "Home",
+      "status": "pending"
+    },
+    {
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Reed-Myers",
+      "category": "Books",
+      "status": "active"
+    },
+    {
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Mack LLC",
+      "category": "Home",
+      "status": "pending"
+    },
+    {
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Williams-Johnson",
+      "category": "Books",
+      "status": "pending"
+    },
+    {
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Barnett, Booth and Torres",
+      "category": "Beauty",
+      "status": "pending"
+    },
+    {
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Watts Inc",
+      "category": "Clothing",
+      "status": "pending"
+    },
+    {
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Smith-Henderson",
+      "category": "Home",
+      "status": "active"
+    },
+    {
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Henderson-Osborne",
+      "category": "Clothing",
+      "status": "pending"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "3ad0e4d0-9699-44ca-a621-4e085ac0fb89",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Multi-tiered intangible algorithm",
+      "category": "Beauty",
+      "unit_price": 40.14,
+      "stock": 420
+    },
+    {
+      "product_id": "881a0421-1712-4a36-8956-ff4789d06701",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Seamless 4thgeneration toolset",
+      "category": "Clothing",
+      "unit_price": 43.0,
+      "stock": 434
+    },
+    {
+      "product_id": "5b38c188-7a09-42f7-b8f6-86b763ba2bcc",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Fundamental zero administration database",
+      "category": "Clothing",
+      "unit_price": 34.23,
+      "stock": 11
+    },
+    {
+      "product_id": "8ccc7bb4-e7d5-414a-a58c-d0e5de3b6db8",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Multi-tiered mission-critical frame",
+      "category": "Books",
+      "unit_price": 115.98,
+      "stock": 489
+    },
+    {
+      "product_id": "f846634e-5b65-4877-b73d-bd7c0726cc61",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Persevering bottom-line interface",
+      "category": "Books",
+      "unit_price": 283.49,
+      "stock": 436
+    },
+    {
+      "product_id": "09e079b3-ad30-4a14-ad4f-50e3d305cbf9",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Networked uniform definition",
+      "category": "Clothing",
+      "unit_price": 245.24,
+      "stock": 437
+    },
+    {
+      "product_id": "d49c8bd1-f4fc-4174-8551-06ba117586bb",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Mandatory actuating pricing structure",
+      "category": "Books",
+      "unit_price": 249.68,
+      "stock": 322
+    },
+    {
+      "product_id": "eb54c175-d752-41f1-8a9b-8aac186c9e8c",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Open-architected content-based flexibility",
+      "category": "Home",
+      "unit_price": 284.76,
+      "stock": 218
+    },
+    {
+      "product_id": "05b5d7b9-b516-4a32-a928-bbe8ac700a4b",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Customer-focused leadingedge algorithm",
+      "category": "Beauty",
+      "unit_price": 157.14,
+      "stock": 364
+    },
+    {
+      "product_id": "0bb647ae-c0ae-488a-9f31-732d31997c0f",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Balanced 24hour ability",
+      "category": "Home",
+      "unit_price": 25.72,
+      "stock": 230
+    },
+    {
+      "product_id": "9c053681-c330-49aa-8dd8-c099ecf15819",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Optional web-enabled software",
+      "category": "Books",
+      "unit_price": 173.89,
+      "stock": 261
+    },
+    {
+      "product_id": "e138214d-24cc-4dc1-9618-d095d907501d",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Cross-platform well-modulated capability",
+      "category": "Books",
+      "unit_price": 212.2,
+      "stock": 375
+    },
+    {
+      "product_id": "353a7298-3ab2-4d0e-a083-de53d45e8a96",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Proactive web-enabled hardware",
+      "category": "Beauty",
+      "unit_price": 177.8,
+      "stock": 366
+    },
+    {
+      "product_id": "4aa79b59-1bfc-4a73-8f50-6245b7988e11",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Persevering client-driven standardization",
+      "category": "Clothing",
+      "unit_price": 124.71,
+      "stock": 400
+    },
+    {
+      "product_id": "1ad9485d-96bf-45e7-bab7-4af1b08cb2aa",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Balanced tertiary database",
+      "category": "Beauty",
+      "unit_price": 268.29,
+      "stock": 91
+    },
+    {
+      "product_id": "420af05c-bba3-49b3-a84c-05b00f2b85e9",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Configurable zero-defect software",
+      "category": "Home",
+      "unit_price": 66.0,
+      "stock": 95
+    },
+    {
+      "product_id": "99712ab0-72e4-4000-9ac0-b945359bf88c",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Ameliorated reciprocal forecast",
+      "category": "Home",
+      "unit_price": 92.19,
+      "stock": 241
+    },
+    {
+      "product_id": "7e6520af-3400-4b9b-a3d7-e826994c61fa",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Face-to-face bi-directional orchestration",
+      "category": "Clothing",
+      "unit_price": 55.8,
+      "stock": 442
+    },
+    {
+      "product_id": "fef28ca9-09fb-4078-8393-db39a4252cf4",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Persistent contextually-based matrices",
+      "category": "Clothing",
+      "unit_price": 143.58,
+      "stock": 342
+    },
+    {
+      "product_id": "fbfc464c-23d3-4963-8f0a-35fce65cc645",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Ergonomic neutral analyzer",
+      "category": "Home",
+      "unit_price": 291.93,
+      "stock": 293
+    },
+    {
+      "product_id": "5afa5f54-c81d-4d7a-b744-d286771766c4",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Secured uniform infrastructure",
+      "category": "Home",
+      "unit_price": 141.14,
+      "stock": 339
+    },
+    {
+      "product_id": "0096e469-d14e-4731-b90c-ca4571dba38b",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Face-to-face systemic pricing structure",
+      "category": "Home",
+      "unit_price": 157.93,
+      "stock": 129
+    },
+    {
+      "product_id": "e0e03b2c-5b18-4385-8a94-910cd089b31e",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Extended directional capacity",
+      "category": "Beauty",
+      "unit_price": 250.88,
+      "stock": 292
+    },
+    {
+      "product_id": "296cc208-2eca-4f44-9187-d6f7c1d452b6",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Open-architected multi-state info-mediaries",
+      "category": "Clothing",
+      "unit_price": 46.3,
+      "stock": 147
+    },
+    {
+      "product_id": "f4b0f2e6-4b98-41fc-b64a-86bee266779d",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Pre-emptive impactful solution",
+      "category": "Books",
+      "unit_price": 158.13,
+      "stock": 23
+    },
+    {
+      "product_id": "26acc86f-7930-4441-8481-372f7c9fb339",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Adaptive tertiary open architecture",
+      "category": "Clothing",
+      "unit_price": 78.62,
+      "stock": 71
+    },
+    {
+      "product_id": "debcec8b-113e-4f5a-8593-20234e4f2128",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Phased national task-force",
+      "category": "Books",
+      "unit_price": 27.61,
+      "stock": 157
+    },
+    {
+      "product_id": "0c081f3a-2f2d-4b58-853b-5fbf0286c951",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Enhanced global support",
+      "category": "Books",
+      "unit_price": 239.8,
+      "stock": 286
+    },
+    {
+      "product_id": "49419dea-4aa8-42a7-bd5f-34f5dc8398ee",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Configurable bifurcated interface",
+      "category": "Books",
+      "unit_price": 196.94,
+      "stock": 288
+    },
+    {
+      "product_id": "e5e931c7-e3a0-401b-9e17-4e25e28330af",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Exclusive logistical utilization",
+      "category": "Clothing",
+      "unit_price": 251.84,
+      "stock": 470
+    },
+    {
+      "product_id": "8b7ce7d7-7e4d-4028-b5e7-722e6fa17cd3",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Open-architected high-level process improvement",
+      "category": "Beauty",
+      "unit_price": 90.24,
+      "stock": 370
+    },
+    {
+      "product_id": "4f659e57-beff-42fa-9e76-ccf0d150554d",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Monitored 24hour intranet",
+      "category": "Home",
+      "unit_price": 279.99,
+      "stock": 160
+    },
+    {
+      "product_id": "68bbf40a-1197-486f-8139-f2e6219d39ac",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Proactive reciprocal matrices",
+      "category": "Clothing",
+      "unit_price": 183.04,
+      "stock": 312
+    },
+    {
+      "product_id": "3c8f58bb-fd53-4f35-a72d-6e19e6ded882",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Optimized value-added parallelism",
+      "category": "Clothing",
+      "unit_price": 228.58,
+      "stock": 123
+    },
+    {
+      "product_id": "224eff5d-d940-467e-a0da-cd97bb141d17",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Quality-focused bifurcated database",
+      "category": "Clothing",
+      "unit_price": 249.97,
+      "stock": 471
+    },
+    {
+      "product_id": "9c94b708-4f5d-4a04-9db7-aa6b937628cf",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Decentralized asymmetric help-desk",
+      "category": "Books",
+      "unit_price": 261.05,
+      "stock": 184
+    },
+    {
+      "product_id": "b8a79056-ba92-40ac-b6f4-3f5986c657fb",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Monitored foreground database",
+      "category": "Books",
+      "unit_price": 271.53,
+      "stock": 460
+    },
+    {
+      "product_id": "f17de4b3-6209-4994-be8b-0e1221b18d5e",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Visionary real-time knowledgebase",
+      "category": "Clothing",
+      "unit_price": 158.8,
+      "stock": 280
+    },
+    {
+      "product_id": "84199716-72cb-444b-9485-a13ee1de7e96",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Assimilated client-server strategy",
+      "category": "Clothing",
+      "unit_price": 254.45,
+      "stock": 108
+    },
+    {
+      "product_id": "cd6727ea-981a-494a-a5b1-24228b653d0a",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Cross-group multi-tasking hub",
+      "category": "Home",
+      "unit_price": 271.77,
+      "stock": 414
+    },
+    {
+      "product_id": "fa86ef65-b7e1-48d5-a4a1-0d64112fa378",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Innovative homogeneous synergy",
+      "category": "Books",
+      "unit_price": 286.55,
+      "stock": 340
+    },
+    {
+      "product_id": "f10935f5-370a-44d7-b6d6-a24b4c1c7342",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Business-focused client-driven matrix",
+      "category": "Home",
+      "unit_price": 198.79,
+      "stock": 260
+    },
+    {
+      "product_id": "357dda8f-100e-4587-98f0-df65f7e2e698",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Re-contextualized methodical Graphic Interface",
+      "category": "Books",
+      "unit_price": 15.41,
+      "stock": 15
+    },
+    {
+      "product_id": "f8222011-bca2-4485-8402-1da637bcb374",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Progressive optimizing core",
+      "category": "Books",
+      "unit_price": 83.67,
+      "stock": 241
+    },
+    {
+      "product_id": "7a416be4-1726-48a9-a6e1-fa182d0544e5",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Proactive holistic ability",
+      "category": "Beauty",
+      "unit_price": 79.36,
+      "stock": 111
+    },
+    {
+      "product_id": "42ff9182-5444-4ada-a27c-798c760595d0",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Public-key grid-enabled collaboration",
+      "category": "Clothing",
+      "unit_price": 39.11,
+      "stock": 154
+    },
+    {
+      "product_id": "b0a110d2-32b1-4399-b74a-6b570b7415a8",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Managed discrete artificial intelligence",
+      "category": "Home",
+      "unit_price": 177.22,
+      "stock": 44
+    },
+    {
+      "product_id": "6d5abfdc-6c04-46da-8fc1-82b427b70ea8",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Inverse 24hour Local Area Network",
+      "category": "Clothing",
+      "unit_price": 234.55,
+      "stock": 34
+    },
+    {
+      "product_id": "913d3ec9-57ac-4644-b8fe-e4305311f228",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Exclusive actuating neural-net",
+      "category": "Clothing",
+      "unit_price": 294.94,
+      "stock": 40
+    },
+    {
+      "product_id": "7875f1cd-715e-4afe-930d-f3eb4fb516d7",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Polarized user-facing adapter",
+      "category": "Books",
+      "unit_price": 68.48,
+      "stock": 263
+    },
+    {
+      "product_id": "403f91ac-b253-430c-a19f-ba7aafc12565",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Multi-channeled zero tolerance open system",
+      "category": "Beauty",
+      "unit_price": 90.52,
+      "stock": 228
+    },
+    {
+      "product_id": "5062739a-4605-436b-a623-fd8597fddf24",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Horizontal bandwidth-monitored moderator",
+      "category": "Clothing",
+      "unit_price": 118.39,
+      "stock": 234
+    },
+    {
+      "product_id": "c66bb807-d2b4-4d07-98ea-77169ae4154e",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Triple-buffered directional function",
+      "category": "Books",
+      "unit_price": 32.05,
+      "stock": 469
+    },
+    {
+      "product_id": "56844be9-ac14-4e90-9226-ab9f658c7eb9",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Devolved 24/7 Local Area Network",
+      "category": "Clothing",
+      "unit_price": 217.39,
+      "stock": 88
+    },
+    {
+      "product_id": "5fc9557b-0d32-4a70-b919-994a4088e478",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Down-sized client-server productivity",
+      "category": "Clothing",
+      "unit_price": 225.17,
+      "stock": 406
+    },
+    {
+      "product_id": "dc3ed9ee-c249-4e0f-9b4a-e19a6284013c",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Total bifurcated software",
+      "category": "Clothing",
+      "unit_price": 271.45,
+      "stock": 299
+    },
+    {
+      "product_id": "242764e6-b3f4-47dc-bded-bba45fa0cc15",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Configurable transitional synergy",
+      "category": "Books",
+      "unit_price": 20.53,
+      "stock": 326
+    },
+    {
+      "product_id": "1097d046-dd6a-4be5-b57f-a10ab284ca17",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Down-sized coherent encryption",
+      "category": "Electronics",
+      "unit_price": 217.96,
+      "stock": 436
+    },
+    {
+      "product_id": "42b3cd00-7103-4f44-9140-605cb409049d",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Organized global analyzer",
+      "category": "Clothing",
+      "unit_price": 48.83,
+      "stock": 385
+    },
+    {
+      "product_id": "bf00800d-ae23-441e-afae-a567d2654feb",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Face-to-face encompassing focus group",
+      "category": "Beauty",
+      "unit_price": 277.8,
+      "stock": 143
+    },
+    {
+      "product_id": "0652cb18-1843-4835-8744-55c4d70b2009",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Synergistic coherent architecture",
+      "category": "Home",
+      "unit_price": 247.23,
+      "stock": 167
+    },
+    {
+      "product_id": "fbf69398-3622-49e3-ac4f-523e924ca0ad",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Networked intangible challenge",
+      "category": "Beauty",
+      "unit_price": 298.29,
+      "stock": 433
+    },
+    {
+      "product_id": "718eca8f-ed7b-42ec-82f6-211a3216959b",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Progressive mobile workforce",
+      "category": "Books",
+      "unit_price": 201.53,
+      "stock": 220
+    },
+    {
+      "product_id": "d03f8082-00e6-4d66-91fd-b442f3b51c21",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Customer-focused attitude-oriented monitoring",
+      "category": "Books",
+      "unit_price": 184.6,
+      "stock": 286
+    },
+    {
+      "product_id": "34fd3ff7-b11a-4f25-b04b-779f9a59e892",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Persevering responsive frame",
+      "category": "Home",
+      "unit_price": 278.91,
+      "stock": 131
+    },
+    {
+      "product_id": "20596b6e-bd2a-490b-83de-535f1f76a7c9",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Diverse impactful neural-net",
+      "category": "Books",
+      "unit_price": 248.9,
+      "stock": 329
+    },
+    {
+      "product_id": "df3d6d23-b05a-49ac-9b1f-9ba79a8ae52c",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Multi-tiered executive website",
+      "category": "Books",
+      "unit_price": 259.84,
+      "stock": 28
+    },
+    {
+      "product_id": "846b9b88-f0db-41b0-9b00-cf12ef0f21cf",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Cloned coherent solution",
+      "category": "Books",
+      "unit_price": 92.17,
+      "stock": 147
+    },
+    {
+      "product_id": "e823b920-9b23-4f47-8128-140aaad67b83",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Robust multimedia open architecture",
+      "category": "Home",
+      "unit_price": 15.28,
+      "stock": 237
+    },
+    {
+      "product_id": "64e7118a-b480-44a4-aa58-6cf7ea7ea596",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Managed high-level hardware",
+      "category": "Clothing",
+      "unit_price": 66.87,
+      "stock": 73
+    },
+    {
+      "product_id": "abb68335-f117-4784-9e60-6498e3a5149a",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Implemented non-volatile architecture",
+      "category": "Clothing",
+      "unit_price": 153.71,
+      "stock": 3
+    },
+    {
+      "product_id": "3c91f673-0e06-445d-b301-88bde785c29f",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Seamless human-resource open system",
+      "category": "Clothing",
+      "unit_price": 42.06,
+      "stock": 341
+    },
+    {
+      "product_id": "ea918397-8ee3-447e-be3d-80930b288640",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Universal actuating access",
+      "category": "Books",
+      "unit_price": 231.66,
+      "stock": 250
+    },
+    {
+      "product_id": "9b4d7284-9d4b-4634-93d2-600ad327e715",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Function-based bandwidth-monitored matrix",
+      "category": "Books",
+      "unit_price": 97.91,
+      "stock": 262
+    },
+    {
+      "product_id": "b9439b9e-c704-484d-949f-3f0609e74e17",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Proactive bifurcated architecture",
+      "category": "Books",
+      "unit_price": 146.81,
+      "stock": 173
+    },
+    {
+      "product_id": "679d6205-eaab-4a3e-adb6-bd9eba9ecdea",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Persistent cohesive focus group",
+      "category": "Books",
+      "unit_price": 187.91,
+      "stock": 77
+    },
+    {
+      "product_id": "8ff4c790-9852-4afa-b965-35890e5afb51",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Re-contextualized responsive groupware",
+      "category": "Books",
+      "unit_price": 15.5,
+      "stock": 150
+    },
+    {
+      "product_id": "90c6faba-1efe-496d-89cf-36728b42ced0",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Ameliorated multi-state knowledgebase",
+      "category": "Beauty",
+      "unit_price": 23.55,
+      "stock": 119
+    },
+    {
+      "product_id": "fb48ec4c-45ae-4037-a462-630d31d83dec",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Visionary national product",
+      "category": "Books",
+      "unit_price": 117.46,
+      "stock": 200
+    },
+    {
+      "product_id": "367e6a04-92fc-4396-99f1-326db13adc0f",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Persevering intermediate algorithm",
+      "category": "Books",
+      "unit_price": 145.1,
+      "stock": 74
+    },
+    {
+      "product_id": "74f705de-e2a4-4392-84b8-ab2ea1a2309e",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Integrated zero-defect time-frame",
+      "category": "Beauty",
+      "unit_price": 21.5,
+      "stock": 38
+    },
+    {
+      "product_id": "bad7de00-9cf5-4ae5-acf9-3dcfa8413cda",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Robust local alliance",
+      "category": "Clothing",
+      "unit_price": 48.74,
+      "stock": 117
+    },
+    {
+      "product_id": "b49e4cfe-3447-414f-acdd-4480636952a3",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Progressive homogeneous framework",
+      "category": "Beauty",
+      "unit_price": 181.52,
+      "stock": 22
+    },
+    {
+      "product_id": "f21808a3-3aa9-42f2-b643-f4868b5e4236",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Enterprise-wide logistical extranet",
+      "category": "Books",
+      "unit_price": 197.15,
+      "stock": 202
+    },
+    {
+      "product_id": "8af911aa-c7d7-4594-be55-d48cdf47cd61",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Ameliorated hybrid infrastructure",
+      "category": "Books",
+      "unit_price": 59.17,
+      "stock": 185
+    },
+    {
+      "product_id": "08f45c25-e7bd-45bf-a7ea-ea6170cd732b",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Re-engineered multi-state task-force",
+      "category": "Home",
+      "unit_price": 287.66,
+      "stock": 108
+    },
+    {
+      "product_id": "d09719ec-87fe-4941-a911-6692268bd0c3",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Upgradable high-level capability",
+      "category": "Home",
+      "unit_price": 37.05,
+      "stock": 153
+    },
+    {
+      "product_id": "1f119cde-b00c-47a5-964a-99e5736d1be4",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Mandatory interactive leverage",
+      "category": "Clothing",
+      "unit_price": 206.63,
+      "stock": 480
+    },
+    {
+      "product_id": "9c7a0d8c-dbdd-467a-af7a-78d4628651c8",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Ergonomic object-oriented firmware",
+      "category": "Books",
+      "unit_price": 91.05,
+      "stock": 467
+    },
+    {
+      "product_id": "ef43b4a1-158b-4e32-9a2d-28d077a1c73c",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Front-line 24hour orchestration",
+      "category": "Clothing",
+      "unit_price": 209.34,
+      "stock": 17
+    },
+    {
+      "product_id": "219b53ae-4ebb-4c21-8232-98009976e1e9",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Adaptive asynchronous time-frame",
+      "category": "Beauty",
+      "unit_price": 183.81,
+      "stock": 200
+    },
+    {
+      "product_id": "15cfca20-dce6-4d94-b932-336d730a755c",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Mandatory national knowledgebase",
+      "category": "Books",
+      "unit_price": 132.33,
+      "stock": 249
+    },
+    {
+      "product_id": "0be37e80-6697-4a70-8ffc-6765e20e2484",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Assimilated motivating parallelism",
+      "category": "Books",
+      "unit_price": 272.76,
+      "stock": 321
+    },
+    {
+      "product_id": "f4645fdf-50c7-4031-8f8c-587bc84c3cd9",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Adaptive tertiary parallelism",
+      "category": "Beauty",
+      "unit_price": 28.94,
+      "stock": 6
+    },
+    {
+      "product_id": "add74683-801c-41a9-925c-4a94d8556c75",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Reduced cohesive flexibility",
+      "category": "Beauty",
+      "unit_price": 176.04,
+      "stock": 118
+    },
+    {
+      "product_id": "44bcc70a-ac32-477a-96f3-1112cd9be944",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Assimilated value-added pricing structure",
+      "category": "Books",
+      "unit_price": 170.96,
+      "stock": 340
+    },
+    {
+      "product_id": "a60e519d-d930-4890-afea-70117f7db77e",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Organic scalable collaboration",
+      "category": "Beauty",
+      "unit_price": 178.51,
+      "stock": 226
+    },
+    {
+      "product_id": "10b261cf-3adf-4e76-8c81-566d95e30b04",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Devolved bi-directional parallelism",
+      "category": "Beauty",
+      "unit_price": 229.78,
+      "stock": 462
+    },
+    {
+      "product_id": "f56ab1b0-552b-4251-ae10-5a1daff0fa8a",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Automated needs-based website",
+      "category": "Beauty",
+      "unit_price": 50.82,
+      "stock": 480
+    },
+    {
+      "product_id": "0a805d70-eaee-4dfd-8280-599b1d9424ea",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Triple-buffered well-modulated knowledge user",
+      "category": "Books",
+      "unit_price": 278.99,
+      "stock": 488
+    },
+    {
+      "product_id": "39c96f31-d45f-4590-bab4-fff268bf637c",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Devolved high-level hub",
+      "category": "Beauty",
+      "unit_price": 274.36,
+      "stock": 486
+    },
+    {
+      "product_id": "f2c9381a-1f60-4520-9ee8-c2a647e8b967",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Secured attitude-oriented database",
+      "category": "Clothing",
+      "unit_price": 196.78,
+      "stock": 82
+    },
+    {
+      "product_id": "139f567c-dc06-4187-9753-1c066eb7cf77",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Proactive maximized help-desk",
+      "category": "Beauty",
+      "unit_price": 154.94,
+      "stock": 159
+    },
+    {
+      "product_id": "60a2a66d-714c-4675-bf65-baff4d5cb36f",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Enhanced 6thgeneration access",
+      "category": "Clothing",
+      "unit_price": 135.27,
+      "stock": 362
+    },
+    {
+      "product_id": "fb085c7e-60da-434a-9734-b0e963ac3b7e",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Self-enabling local access",
+      "category": "Books",
+      "unit_price": 55.88,
+      "stock": 123
+    },
+    {
+      "product_id": "a59ea020-3a82-4890-8272-17e5346f1210",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Ergonomic coherent circuit",
+      "category": "Beauty",
+      "unit_price": 271.68,
+      "stock": 109
+    },
+    {
+      "product_id": "55a48e02-65c0-4ff8-8fb9-5806afd011aa",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Distributed impactful application",
+      "category": "Clothing",
+      "unit_price": 51.85,
+      "stock": 252
+    },
+    {
+      "product_id": "3c18bc0a-da15-4f57-850e-0c8dc7ece31d",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Business-focused 24hour adapter",
+      "category": "Books",
+      "unit_price": 111.47,
+      "stock": 191
+    },
+    {
+      "product_id": "f91092a0-4381-4291-afad-4dbc81270976",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Cross-platform demand-driven superstructure",
+      "category": "Electronics",
+      "unit_price": 287.83,
+      "stock": 429
+    },
+    {
+      "product_id": "b1c98fe7-6062-45f9-9710-b008358db5d6",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Configurable solution-oriented process improvement",
+      "category": "Home",
+      "unit_price": 190.52,
+      "stock": 12
+    },
+    {
+      "product_id": "ccbe42f2-cf31-4cab-99f9-bc252434a357",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Monitored solution-oriented open architecture",
+      "category": "Home",
+      "unit_price": 9.58,
+      "stock": 143
+    },
+    {
+      "product_id": "d2ade8a7-c80b-4c94-a318-da6cb3111657",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Business-focused 6thgeneration methodology",
+      "category": "Home",
+      "unit_price": 174.66,
+      "stock": 142
+    },
+    {
+      "product_id": "9461c5fd-3996-4df3-97a6-54ec75cd85a3",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Organic incremental definition",
+      "category": "Beauty",
+      "unit_price": 150.21,
+      "stock": 23
+    },
+    {
+      "product_id": "a2ef93f8-bfd6-4260-9ad0-1d07984c647f",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Stand-alone responsive success",
+      "category": "Books",
+      "unit_price": 83.35,
+      "stock": 238
+    },
+    {
+      "product_id": "ead7846f-0664-43e1-aed1-444258441613",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Robust executive leverage",
+      "category": "Books",
+      "unit_price": 277.0,
+      "stock": 380
+    },
+    {
+      "product_id": "6db707cc-70e0-4737-9325-e7e7a6293cd2",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Digitized 4thgeneration customer loyalty",
+      "category": "Books",
+      "unit_price": 135.04,
+      "stock": 30
+    },
+    {
+      "product_id": "f126473b-f74f-4902-8978-d810d560baec",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Synchronized logistical solution",
+      "category": "Clothing",
+      "unit_price": 287.73,
+      "stock": 239
+    },
+    {
+      "product_id": "9ecf5926-a27c-4503-86fd-2cf159f89c04",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Ameliorated homogeneous project",
+      "category": "Beauty",
+      "unit_price": 179.91,
+      "stock": 97
+    },
+    {
+      "product_id": "3a01015e-103a-4288-8cd3-6d5d9dc2745f",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Team-oriented content-based application",
+      "category": "Clothing",
+      "unit_price": 9.31,
+      "stock": 406
+    },
+    {
+      "product_id": "23c2973f-bfdc-49b7-b90f-f15fe8f041ca",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Integrated global productivity",
+      "category": "Clothing",
+      "unit_price": 22.28,
+      "stock": 85
+    },
+    {
+      "product_id": "c65f03ad-c400-41cf-9316-dd716951aa3e",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Visionary bifurcated firmware",
+      "category": "Beauty",
+      "unit_price": 95.45,
+      "stock": 316
+    },
+    {
+      "product_id": "2f2d8b4b-68f8-4bc7-8f45-cafe857144b5",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Seamless zero tolerance toolset",
+      "category": "Clothing",
+      "unit_price": 44.61,
+      "stock": 258
+    },
+    {
+      "product_id": "4aafa2b5-e52e-48f1-bc6d-fc35a9e0a5d5",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Visionary encompassing product",
+      "category": "Beauty",
+      "unit_price": 109.65,
+      "stock": 53
+    },
+    {
+      "product_id": "59c2d3b3-59c2-403c-9c4e-5ef88f0c8387",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Multi-lateral methodical definition",
+      "category": "Books",
+      "unit_price": 223.23,
+      "stock": 37
+    },
+    {
+      "product_id": "e3502bb0-f833-4aaf-b1ff-795fa24d3b23",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Optimized stable strategy",
+      "category": "Home",
+      "unit_price": 21.01,
+      "stock": 294
+    },
+    {
+      "product_id": "30da6c64-117d-4a91-9cb4-093087e9610d",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Organized even-keeled instruction set",
+      "category": "Books",
+      "unit_price": 206.5,
+      "stock": 336
+    },
+    {
+      "product_id": "743376dd-1d8c-4f33-8ded-a57bde567ff3",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Inverse asynchronous policy",
+      "category": "Home",
+      "unit_price": 246.61,
+      "stock": 217
+    },
+    {
+      "product_id": "11c1e231-02a7-49df-86dd-215108227b59",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Diverse dedicated focus group",
+      "category": "Books",
+      "unit_price": 152.9,
+      "stock": 19
+    },
+    {
+      "product_id": "affb5d2e-8582-4fe2-94e6-49783ee9aca6",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Organic systemic capability",
+      "category": "Books",
+      "unit_price": 208.96,
+      "stock": 57
+    },
+    {
+      "product_id": "a62f1c28-ffe1-4206-8221-b2544ec74386",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Customizable object-oriented moratorium",
+      "category": "Clothing",
+      "unit_price": 180.44,
+      "stock": 491
+    },
+    {
+      "product_id": "b2432a2c-f309-4685-ae21-e2127b34044d",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Quality-focused bottom-line secured line",
+      "category": "Electronics",
+      "unit_price": 25.82,
+      "stock": 104
+    },
+    {
+      "product_id": "6097bb18-a1b1-49e8-b96a-1f8904c3e838",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Total uniform Local Area Network",
+      "category": "Home",
+      "unit_price": 200.43,
+      "stock": 460
+    },
+    {
+      "product_id": "f9d8c1a4-5e73-414b-b258-a7bb73b8a07e",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Phased motivating benchmark",
+      "category": "Electronics",
+      "unit_price": 123.61,
+      "stock": 429
+    },
+    {
+      "product_id": "e3570e2e-f151-4fc5-a9fd-3de61b433556",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Focused incremental strategy",
+      "category": "Books",
+      "unit_price": 145.26,
+      "stock": 26
+    },
+    {
+      "product_id": "20cc2ef3-ad2a-4600-9857-1a8d10b6c77d",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Reverse-engineered background structure",
+      "category": "Clothing",
+      "unit_price": 280.48,
+      "stock": 72
+    },
+    {
+      "product_id": "ae55616c-d8a4-469c-88f3-a1b0627542b8",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Versatile asymmetric installation",
+      "category": "Home",
+      "unit_price": 112.34,
+      "stock": 275
+    },
+    {
+      "product_id": "db2e808c-77b5-4628-8dcb-705fe5f91bf1",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Centralized 24hour task-force",
+      "category": "Books",
+      "unit_price": 62.88,
+      "stock": 270
+    },
+    {
+      "product_id": "3700e91d-ed08-4ee8-ad31-18b1dedb6997",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Profound incremental complexity",
+      "category": "Home",
+      "unit_price": 11.31,
+      "stock": 15
+    },
+    {
+      "product_id": "61d3baf2-9c39-43f7-81d9-2ee896e0b774",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Reverse-engineered eco-centric time-frame",
+      "category": "Electronics",
+      "unit_price": 100.99,
+      "stock": 261
+    },
+    {
+      "product_id": "1a0390b6-248c-4091-9767-10d1df4137ed",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Seamless zero administration Graphical User Interface",
+      "category": "Electronics",
+      "unit_price": 69.93,
+      "stock": 54
+    },
+    {
+      "product_id": "31fee177-89b2-4745-8282-7738c3efc1f5",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Devolved even-keeled collaboration",
+      "category": "Electronics",
+      "unit_price": 151.92,
+      "stock": 395
+    },
+    {
+      "product_id": "f90541d2-3f35-4960-a669-c4e5e0113450",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Triple-buffered asymmetric focus group",
+      "category": "Electronics",
+      "unit_price": 13.18,
+      "stock": 5
+    },
+    {
+      "product_id": "b74498d5-0d0e-4b1f-963e-3afcde15ef59",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Face-to-face tangible productivity",
+      "category": "Home",
+      "unit_price": 28.28,
+      "stock": 55
+    },
+    {
+      "product_id": "7fc84d03-7a7d-41b6-8e3d-a9ce12dcf17d",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Pre-emptive foreground Graphical User Interface",
+      "category": "Books",
+      "unit_price": 193.26,
+      "stock": 276
+    },
+    {
+      "product_id": "aee71767-4ac3-4119-b929-9a24be7704aa",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Persevering zero tolerance model",
+      "category": "Books",
+      "unit_price": 84.99,
+      "stock": 418
+    },
+    {
+      "product_id": "ef2320cf-959c-41f2-8059-400dfa051e05",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Exclusive mobile budgetary management",
+      "category": "Books",
+      "unit_price": 89.84,
+      "stock": 464
+    },
+    {
+      "product_id": "5ebaca43-9cec-40a0-8312-ca1769427d8d",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Up-sized leadingedge challenge",
+      "category": "Books",
+      "unit_price": 8.68,
+      "stock": 25
+    },
+    {
+      "product_id": "b31dc313-3470-4d1d-b70a-9fc536354cb8",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Monitored scalable parallelism",
+      "category": "Clothing",
+      "unit_price": 246.22,
+      "stock": 462
+    },
+    {
+      "product_id": "4a965ddf-c86f-4264-bdd9-cf3a889b3a25",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Polarized object-oriented hub",
+      "category": "Books",
+      "unit_price": 55.8,
+      "stock": 386
+    },
+    {
+      "product_id": "f6b4d55c-df05-49e6-8623-5416cec0ba9e",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Devolved context-sensitive secured line",
+      "category": "Clothing",
+      "unit_price": 298.49,
+      "stock": 459
+    },
+    {
+      "product_id": "a86654a6-831a-4718-8361-9566ecac7395",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Multi-channeled demand-driven analyzer",
+      "category": "Beauty",
+      "unit_price": 36.62,
+      "stock": 172
+    },
+    {
+      "product_id": "5cd2bbd2-9be6-4719-a7e7-1bdc119bb9f8",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Streamlined motivating policy",
+      "category": "Books",
+      "unit_price": 90.52,
+      "stock": 107
+    },
+    {
+      "product_id": "f3f7086f-888a-4580-a03b-fa1e58776962",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Compatible web-enabled focus group",
+      "category": "Books",
+      "unit_price": 100.98,
+      "stock": 120
+    },
+    {
+      "product_id": "673c0350-1810-4a44-9e0b-b71c4700b9c2",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Innovative executive function",
+      "category": "Clothing",
+      "unit_price": 17.97,
+      "stock": 477
+    },
+    {
+      "product_id": "6ffea43f-19ca-4a6d-afd6-870083742ef7",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Distributed intermediate installation",
+      "category": "Clothing",
+      "unit_price": 209.61,
+      "stock": 258
+    },
+    {
+      "product_id": "e011e76e-894b-4369-b71b-297af9595743",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Business-focused systemic Internet solution",
+      "category": "Beauty",
+      "unit_price": 286.19,
+      "stock": 429
+    },
+    {
+      "product_id": "bbf891c2-24ef-4600-af36-ca4ca933ed5f",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Intuitive transitional interface",
+      "category": "Clothing",
+      "unit_price": 275.88,
+      "stock": 334
+    },
+    {
+      "product_id": "4e0dd954-86f7-408e-939b-99304ada213f",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Front-line multi-tasking methodology",
+      "category": "Books",
+      "unit_price": 68.63,
+      "stock": 108
+    },
+    {
+      "product_id": "d8dc7cd1-42f9-4144-ae0e-d6883d8724b1",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Cross-platform executive installation",
+      "category": "Clothing",
+      "unit_price": 209.62,
+      "stock": 403
+    },
+    {
+      "product_id": "9ef24caa-6a70-4226-a11d-5ffc98c7cd82",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Function-based fresh-thinking methodology",
+      "category": "Books",
+      "unit_price": 243.85,
+      "stock": 454
+    },
+    {
+      "product_id": "5248e5e8-09c0-424d-90b4-4c99b1d6a557",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Enterprise-wide 5thgeneration system engine",
+      "category": "Books",
+      "unit_price": 266.89,
+      "stock": 194
+    },
+    {
+      "product_id": "abbe7263-80bf-4a79-8ab2-c319ea05ed20",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Virtual human-resource time-frame",
+      "category": "Electronics",
+      "unit_price": 297.86,
+      "stock": 315
+    },
+    {
+      "product_id": "d0097d9a-ea27-4322-8da0-3e7183bdaad9",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Compatible scalable framework",
+      "category": "Books",
+      "unit_price": 200.46,
+      "stock": 464
+    },
+    {
+      "product_id": "5f66d770-e368-4019-8825-418ee8e1bf9d",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Object-based composite algorithm",
+      "category": "Beauty",
+      "unit_price": 12.97,
+      "stock": 430
+    },
+    {
+      "product_id": "830981a2-d2f1-4164-911e-859922425771",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Balanced needs-based portal",
+      "category": "Beauty",
+      "unit_price": 277.23,
+      "stock": 153
+    },
+    {
+      "product_id": "2e967348-2181-42b5-b760-ac33ad8922ea",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Function-based heuristic project",
+      "category": "Clothing",
+      "unit_price": 143.22,
+      "stock": 166
+    },
+    {
+      "product_id": "7273d68b-24cb-4a9e-befa-cf2db22c2bd5",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Assimilated analyzing budgetary management",
+      "category": "Books",
+      "unit_price": 158.19,
+      "stock": 444
+    },
+    {
+      "product_id": "abad8b31-f646-4c77-a135-66e679ed3177",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Sharable methodical emulation",
+      "category": "Home",
+      "unit_price": 226.76,
+      "stock": 233
+    },
+    {
+      "product_id": "641b84df-743f-442c-9ffe-beff3135ad77",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Configurable asymmetric benchmark",
+      "category": "Beauty",
+      "unit_price": 163.32,
+      "stock": 360
+    },
+    {
+      "product_id": "3174e953-23fc-4242-9b04-8e16e836e7e5",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Sharable global model",
+      "category": "Books",
+      "unit_price": 254.64,
+      "stock": 473
+    },
+    {
+      "product_id": "9e662f1d-7e03-49b6-a3b9-4de1ef07e4be",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Re-engineered high-level middleware",
+      "category": "Books",
+      "unit_price": 47.62,
+      "stock": 419
+    },
+    {
+      "product_id": "6a3252e7-632e-4ad3-b5a3-e40bfc913eef",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Polarized user-facing infrastructure",
+      "category": "Beauty",
+      "unit_price": 88.58,
+      "stock": 435
+    },
+    {
+      "product_id": "7c737266-34c0-410d-b3d2-4cd71583ac53",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Reduced background benchmark",
+      "category": "Electronics",
+      "unit_price": 284.04,
+      "stock": 233
+    },
+    {
+      "product_id": "c45681cc-5b88-40c6-b14d-041ade4c00de",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Balanced demand-driven Graphic Interface",
+      "category": "Books",
+      "unit_price": 180.1,
+      "stock": 300
+    },
+    {
+      "product_id": "49ee5d14-e840-467b-8054-5638e4430211",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Programmable intermediate ability",
+      "category": "Clothing",
+      "unit_price": 192.58,
+      "stock": 256
+    },
+    {
+      "product_id": "b0c13d32-efd5-4deb-b44e-83b5f1744f63",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Visionary foreground circuit",
+      "category": "Books",
+      "unit_price": 296.66,
+      "stock": 52
+    },
+    {
+      "product_id": "d98181e6-75b4-4237-be82-bebc4d1bf3f3",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Triple-buffered uniform budgetary management",
+      "category": "Clothing",
+      "unit_price": 19.4,
+      "stock": 72
+    },
+    {
+      "product_id": "1cdaac7c-ed74-4659-91e3-531897b51486",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Focused 5thgeneration framework",
+      "category": "Books",
+      "unit_price": 32.36,
+      "stock": 143
+    },
+    {
+      "product_id": "0a4b93b2-12c0-473b-84cb-5671d533506e",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Universal contextually-based challenge",
+      "category": "Electronics",
+      "unit_price": 65.07,
+      "stock": 439
+    },
+    {
+      "product_id": "997cde31-458c-4bd0-90e4-fa4bc71f4209",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "De-engineered cohesive synergy",
+      "category": "Clothing",
+      "unit_price": 187.51,
+      "stock": 486
+    },
+    {
+      "product_id": "336f22c2-8712-4b4c-a51b-60b419ade2db",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Self-enabling incremental capacity",
+      "category": "Clothing",
+      "unit_price": 121.72,
+      "stock": 382
+    },
+    {
+      "product_id": "58f93391-7aa7-426d-afc9-638da9680c8b",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Persistent foreground website",
+      "category": "Clothing",
+      "unit_price": 59.47,
+      "stock": 151
+    },
+    {
+      "product_id": "e765f4a5-06d8-4fc2-914e-90692e6d2010",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Secured bifurcated data-warehouse",
+      "category": "Home",
+      "unit_price": 85.57,
+      "stock": 449
+    },
+    {
+      "product_id": "c4737ef3-f369-4992-83f8-41fa9ad9c286",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Versatile 4thgeneration circuit",
+      "category": "Clothing",
+      "unit_price": 113.01,
+      "stock": 235
+    },
+    {
+      "product_id": "8cbd7e5f-2dfb-4fbb-abcb-f743bcc21450",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Seamless national service-desk",
+      "category": "Books",
+      "unit_price": 209.93,
+      "stock": 206
+    },
+    {
+      "product_id": "69a8092d-91cc-487e-9dd8-ce2a2c5f7418",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Configurable impactful success",
+      "category": "Clothing",
+      "unit_price": 134.07,
+      "stock": 343
+    },
+    {
+      "product_id": "3c8ec7d1-1152-4490-b094-ddb89f9c57ad",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Ameliorated homogeneous architecture",
+      "category": "Books",
+      "unit_price": 13.17,
+      "stock": 384
+    },
+    {
+      "product_id": "5c0fce2c-806d-4022-b116-37eb8f3caf96",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Intuitive multimedia project",
+      "category": "Books",
+      "unit_price": 84.92,
+      "stock": 38
+    },
+    {
+      "product_id": "f59b6588-5e84-41e4-90e0-8f11b3f7c4f5",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Open-source global portal",
+      "category": "Books",
+      "unit_price": 185.91,
+      "stock": 12
+    },
+    {
+      "product_id": "ba89e9d3-71d5-4819-aa36-4fa501e2cae6",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Integrated bifurcated archive",
+      "category": "Clothing",
+      "unit_price": 60.07,
+      "stock": 336
+    },
+    {
+      "product_id": "6b1bdac6-5209-48c6-8a4e-31db36aaa96f",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Upgradable even-keeled artificial intelligence",
+      "category": "Books",
+      "unit_price": 197.99,
+      "stock": 444
+    },
+    {
+      "product_id": "fe3fc909-a5af-46e1-aa61-2c54ab08a089",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Polarized 24/7 system engine",
+      "category": "Books",
+      "unit_price": 24.37,
+      "stock": 299
+    },
+    {
+      "product_id": "80191867-56cf-481c-a532-964c54fa3cd0",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Total asymmetric customer loyalty",
+      "category": "Books",
+      "unit_price": 116.21,
+      "stock": 102
+    },
+    {
+      "product_id": "a081080d-ead9-4a9b-8ff4-549e941db1df",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Organic scalable collaboration",
+      "category": "Books",
+      "unit_price": 295.64,
+      "stock": 343
+    },
+    {
+      "product_id": "ceb50c78-5863-4281-99d8-e8f8314bfd94",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "User-centric solution-oriented database",
+      "category": "Clothing",
+      "unit_price": 207.73,
+      "stock": 369
+    },
+    {
+      "product_id": "aed07e65-df39-4d4e-b6bc-81b2d7efe42d",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Up-sized even-keeled analyzer",
+      "category": "Electronics",
+      "unit_price": 53.52,
+      "stock": 389
+    },
+    {
+      "product_id": "cb0ae96b-b501-4b03-88b7-cd4538f05107",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Focused tangible customer loyalty",
+      "category": "Books",
+      "unit_price": 112.83,
+      "stock": 118
+    },
+    {
+      "product_id": "ba250a00-5952-4bc5-8ce9-5241cdc30250",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Expanded transitional methodology",
+      "category": "Beauty",
+      "unit_price": 245.63,
+      "stock": 19
+    },
+    {
+      "product_id": "49a2100b-b6b0-465f-a26b-20ecf1ad9037",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Fully-configurable empowering project",
+      "category": "Books",
+      "unit_price": 103.46,
+      "stock": 202
+    },
+    {
+      "product_id": "28eb767d-450e-4649-8133-bcaeda84c9bc",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Re-engineered modular process improvement",
+      "category": "Books",
+      "unit_price": 110.84,
+      "stock": 229
+    },
+    {
+      "product_id": "96f730af-7963-4b2c-a1e7-1448f2a210be",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Enterprise-wide bandwidth-monitored functionalities",
+      "category": "Books",
+      "unit_price": 104.55,
+      "stock": 337
+    },
+    {
+      "product_id": "94b1d512-4d72-4e63-9d0b-6ced7bb86f2f",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Configurable directional conglomeration",
+      "category": "Home",
+      "unit_price": 142.26,
+      "stock": 311
+    },
+    {
+      "product_id": "177115aa-fdc2-4403-b10e-aa93a902a063",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Monitored object-oriented capacity",
+      "category": "Clothing",
+      "unit_price": 254.28,
+      "stock": 223
+    },
+    {
+      "product_id": "2ca565b1-b48a-4989-b7fd-42f504292f65",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Vision-oriented system-worthy artificial intelligence",
+      "category": "Books",
+      "unit_price": 67.54,
+      "stock": 23
+    },
+    {
+      "product_id": "398a92bc-bcb3-4e6c-9981-70eb49ebdd8a",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Devolved 5thgeneration adapter",
+      "category": "Books",
+      "unit_price": 124.89,
+      "stock": 342
+    },
+    {
+      "product_id": "8c958f9e-f182-45b3-8018-7fd29a400a1c",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Total full-range core",
+      "category": "Books",
+      "unit_price": 184.84,
+      "stock": 349
+    },
+    {
+      "product_id": "826736e3-c46e-4075-aa4c-8835b9eeab38",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Reverse-engineered foreground capability",
+      "category": "Beauty",
+      "unit_price": 228.01,
+      "stock": 111
+    },
+    {
+      "product_id": "871a90f3-8c21-44cd-a18f-bb57b7919336",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Enterprise-wide attitude-oriented monitoring",
+      "category": "Clothing",
+      "unit_price": 179.15,
+      "stock": 455
+    },
+    {
+      "product_id": "8373d8b1-c296-480c-b506-19e5d303241b",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Persevering 5thgeneration hierarchy",
+      "category": "Clothing",
+      "unit_price": 229.84,
+      "stock": 354
+    },
+    {
+      "product_id": "613aeac5-cfd8-479b-b6ca-a9d2528dfbac",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Balanced leadingedge Internet solution",
+      "category": "Beauty",
+      "unit_price": 142.24,
+      "stock": 149
+    },
+    {
+      "product_id": "a33d2113-13fd-485e-aa05-39572c94e9a6",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Re-engineered discrete archive",
+      "category": "Home",
+      "unit_price": 299.78,
+      "stock": 235
+    },
+    {
+      "product_id": "71aacf83-d646-4261-ba51-586bebf1e26f",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Diverse composite framework",
+      "category": "Home",
+      "unit_price": 63.16,
+      "stock": 292
+    },
+    {
+      "product_id": "38d35eff-f48f-46cd-8720-68fec69f17ea",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Down-sized bifurcated algorithm",
+      "category": "Books",
+      "unit_price": 145.41,
+      "stock": 496
+    },
+    {
+      "product_id": "0e8f6dcb-47db-44f9-a10c-b65aedd10efa",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Multi-lateral optimal encoding",
+      "category": "Clothing",
+      "unit_price": 268.79,
+      "stock": 61
+    },
+    {
+      "product_id": "bb8922f2-59b9-4866-bfc2-355b9ecc9378",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Proactive eco-centric encoding",
+      "category": "Beauty",
+      "unit_price": 228.75,
+      "stock": 382
+    },
+    {
+      "product_id": "0d14bb99-d8b4-4348-9902-6ff90c8ec672",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Fully-configurable reciprocal emulation",
+      "category": "Home",
+      "unit_price": 161.41,
+      "stock": 257
+    },
+    {
+      "product_id": "2f6cb07f-9ed4-4a3d-bf2e-9a2d0b6b282b",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Quality-focused holistic moratorium",
+      "category": "Clothing",
+      "unit_price": 57.1,
+      "stock": 140
+    },
+    {
+      "product_id": "95f9531d-3ded-4120-8055-8952329e8e25",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Expanded demand-driven flexibility",
+      "category": "Clothing",
+      "unit_price": 252.22,
+      "stock": 323
+    },
+    {
+      "product_id": "97ce6285-9919-46f5-9a0b-f16379672213",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Sharable encompassing toolset",
+      "category": "Books",
+      "unit_price": 294.66,
+      "stock": 136
+    },
+    {
+      "product_id": "cf4f8642-485c-40e6-bb1a-eecbed9d31c3",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Triple-buffered coherent circuit",
+      "category": "Electronics",
+      "unit_price": 202.47,
+      "stock": 453
+    },
+    {
+      "product_id": "d80e55d8-33a8-408e-b78a-5b6ad85abfe2",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Down-sized full-range Graphic Interface",
+      "category": "Clothing",
+      "unit_price": 16.44,
+      "stock": 112
+    },
+    {
+      "product_id": "339abd1b-2ae9-4a09-b789-049e60635c3e",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Customer-focused explicit emulation",
+      "category": "Books",
+      "unit_price": 167.62,
+      "stock": 400
+    },
+    {
+      "product_id": "bd1dd3cd-8283-4cfd-b759-9c255a1e1e0d",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Networked empowering capability",
+      "category": "Beauty",
+      "unit_price": 286.38,
+      "stock": 374
+    },
+    {
+      "product_id": "cfccd74f-865f-47bd-b3ba-a9bacf449025",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Pre-emptive value-added service-desk",
+      "category": "Clothing",
+      "unit_price": 138.21,
+      "stock": 449
+    },
+    {
+      "product_id": "f9fd94ae-bf24-4b84-ac18-7a9755406919",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Cross-group modular help-desk",
+      "category": "Home",
+      "unit_price": 52.18,
+      "stock": 13
+    },
+    {
+      "product_id": "e1b8f0ad-2bd4-4e57-a207-446c3ed2bade",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Synchronized executive circuit",
+      "category": "Home",
+      "unit_price": 92.86,
+      "stock": 163
+    },
+    {
+      "product_id": "26b9e1f7-5323-4f33-be82-2f9ec31f6f3c",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Digitized dedicated Internet solution",
+      "category": "Beauty",
+      "unit_price": 12.7,
+      "stock": 500
+    },
+    {
+      "product_id": "464015eb-88ae-45cf-8eb1-2dd53ef2ac4d",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Ergonomic analyzing policy",
+      "category": "Home",
+      "unit_price": 50.38,
+      "stock": 160
+    },
+    {
+      "product_id": "63849b5a-3cb9-46fb-baf4-29f0dae4410a",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Automated next generation flexibility",
+      "category": "Clothing",
+      "unit_price": 138.18,
+      "stock": 8
+    },
+    {
+      "product_id": "7d41aac3-0f67-4bf1-a3a1-6f445970354d",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Robust clear-thinking knowledge user",
+      "category": "Home",
+      "unit_price": 260.89,
+      "stock": 266
+    },
+    {
+      "product_id": "4abf1afd-5043-45b2-aa43-f4c79bb45ad3",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Pre-emptive static portal",
+      "category": "Clothing",
+      "unit_price": 215.61,
+      "stock": 34
+    },
+    {
+      "product_id": "81565807-7676-4fbc-b15d-a210c41937cc",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Extended executive strategy",
+      "category": "Beauty",
+      "unit_price": 118.32,
+      "stock": 295
+    },
+    {
+      "product_id": "c5c33070-55ef-4e5c-9b04-b9a58ad27673",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Assimilated asymmetric definition",
+      "category": "Home",
+      "unit_price": 132.72,
+      "stock": 93
+    },
+    {
+      "product_id": "cd96279b-a702-4330-a6b6-2b2fd1049e30",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Multi-channeled client-server standardization",
+      "category": "Clothing",
+      "unit_price": 264.43,
+      "stock": 97
+    },
+    {
+      "product_id": "821caf21-774e-4d32-9e24-983532f48833",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Optional static hierarchy",
+      "category": "Clothing",
+      "unit_price": 92.24,
+      "stock": 331
+    },
+    {
+      "product_id": "17c6ed28-0453-4526-87f8-f385286f87d6",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Team-oriented upward-trending core",
+      "category": "Clothing",
+      "unit_price": 37.08,
+      "stock": 370
+    },
+    {
+      "product_id": "73e19dbd-bd20-4e63-b22f-80906e155bb4",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Public-key local hub",
+      "category": "Home",
+      "unit_price": 112.43,
+      "stock": 489
+    },
+    {
+      "product_id": "4d229865-2a67-4b0f-b36e-174b060775f4",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Quality-focused empowering Internet solution",
+      "category": "Books",
+      "unit_price": 28.96,
+      "stock": 123
+    },
+    {
+      "product_id": "2ad0f65f-c390-41d8-8eb2-dffcfff5558a",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Devolved directional orchestration",
+      "category": "Clothing",
+      "unit_price": 253.53,
+      "stock": 294
+    },
+    {
+      "product_id": "9870dee0-daed-4963-825d-96a59abfb90d",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "User-friendly global software",
+      "category": "Clothing",
+      "unit_price": 161.77,
+      "stock": 351
+    },
+    {
+      "product_id": "15cee77e-3d1b-4710-a469-ff2d247aab0e",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Up-sized exuding access",
+      "category": "Books",
+      "unit_price": 7.07,
+      "stock": 182
+    },
+    {
+      "product_id": "74512b0e-adf0-48d6-a2cf-2f11bb90fcb2",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Monitored stable focus group",
+      "category": "Home",
+      "unit_price": 151.59,
+      "stock": 384
+    },
+    {
+      "product_id": "fb1d39a5-3147-436a-b4a5-586f5497e107",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Multi-lateral eco-centric website",
+      "category": "Beauty",
+      "unit_price": 263.91,
+      "stock": 377
+    },
+    {
+      "product_id": "6b438038-c5e9-4d3f-be67-03423c367ca9",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Compatible object-oriented algorithm",
+      "category": "Home",
+      "unit_price": 253.78,
+      "stock": 145
+    },
+    {
+      "product_id": "a364f9f1-bc6c-4b7c-903f-701e283c862d",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Upgradable secondary service-desk",
+      "category": "Books",
+      "unit_price": 83.56,
+      "stock": 178
+    },
+    {
+      "product_id": "3b6b2428-e8ec-4cc3-8b79-751312fbb8fb",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Open-architected dedicated info-mediaries",
+      "category": "Books",
+      "unit_price": 196.7,
+      "stock": 288
+    },
+    {
+      "product_id": "db88ad68-53c6-4d50-884d-52d821f2cc46",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Monitored logistical projection",
+      "category": "Home",
+      "unit_price": 193.4,
+      "stock": 446
+    },
+    {
+      "product_id": "343e1054-cdf6-4fbd-a169-9663752959d8",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Function-based asynchronous archive",
+      "category": "Books",
+      "unit_price": 294.31,
+      "stock": 54
+    },
+    {
+      "product_id": "1364ffef-6cbd-4a04-87f5-1e7a1de278d0",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Multi-layered responsive data-warehouse",
+      "category": "Clothing",
+      "unit_price": 88.48,
+      "stock": 151
+    },
+    {
+      "product_id": "a5dd3ea6-42ca-4dae-99eb-d314b1ac137d",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Sharable directional function",
+      "category": "Home",
+      "unit_price": 58.07,
+      "stock": 237
+    },
+    {
+      "product_id": "e5bc5d19-5a0b-43ac-8f20-06b3698207ae",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Front-line analyzing solution",
+      "category": "Books",
+      "unit_price": 295.11,
+      "stock": 258
+    },
+    {
+      "product_id": "048bf326-3e88-448c-8102-e539c4dc8237",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Extended directional open system",
+      "category": "Books",
+      "unit_price": 223.0,
+      "stock": 298
+    },
+    {
+      "product_id": "ada04e19-cb92-4ee4-8542-a55ca1f925ff",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Cloned transitional intranet",
+      "category": "Clothing",
+      "unit_price": 84.45,
+      "stock": 486
+    },
+    {
+      "product_id": "1ae53b1e-bc62-46ef-92da-c6e858c33ad3",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Multi-layered attitude-oriented data-warehouse",
+      "category": "Books",
+      "unit_price": 119.04,
+      "stock": 298
+    },
+    {
+      "product_id": "c7f910cd-9228-4e0e-a2f8-659cb17705e5",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Multi-tiered context-sensitive monitoring",
+      "category": "Beauty",
+      "unit_price": 126.38,
+      "stock": 277
+    },
+    {
+      "product_id": "6065bb09-8d06-44a7-8343-0fc9a7532b43",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Reverse-engineered exuding database",
+      "category": "Books",
+      "unit_price": 99.5,
+      "stock": 181
+    },
+    {
+      "product_id": "ad89cd48-1419-4c9b-b4a7-91738913d2c3",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Cross-group dynamic intranet",
+      "category": "Beauty",
+      "unit_price": 292.39,
+      "stock": 231
+    },
+    {
+      "product_id": "a6aca150-e00c-4755-90d1-ff5e30458b91",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Future-proofed 4thgeneration open system",
+      "category": "Clothing",
+      "unit_price": 90.63,
+      "stock": 352
+    },
+    {
+      "product_id": "5616dfff-8fd5-4ece-8766-882d7a2568ba",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Decentralized fresh-thinking hierarchy",
+      "category": "Books",
+      "unit_price": 140.36,
+      "stock": 71
+    },
+    {
+      "product_id": "494288ec-95a2-41c0-b5ee-6bd2cc06993f",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Reactive solution-oriented model",
+      "category": "Clothing",
+      "unit_price": 153.55,
+      "stock": 92
+    },
+    {
+      "product_id": "dbd4feee-ce14-4eb6-b40f-32e1923e9cfb",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Managed zero-defect product",
+      "category": "Clothing",
+      "unit_price": 175.32,
+      "stock": 245
+    },
+    {
+      "product_id": "302ea598-3551-4a37-a684-f711e9bf9f48",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Triple-buffered dynamic success",
+      "category": "Home",
+      "unit_price": 246.35,
+      "stock": 145
+    },
+    {
+      "product_id": "efcfa219-903e-49ee-899e-b21687ac97b4",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Virtual background core",
+      "category": "Books",
+      "unit_price": 68.0,
+      "stock": 29
+    },
+    {
+      "product_id": "2509bc4e-b12f-4c66-9f1d-213047523f43",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Vision-oriented 5thgeneration benchmark",
+      "category": "Books",
+      "unit_price": 30.55,
+      "stock": 479
+    },
+    {
+      "product_id": "0be1ced7-6aaf-4751-8d38-1a78024be066",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Profound needs-based hardware",
+      "category": "Beauty",
+      "unit_price": 157.37,
+      "stock": 20
+    },
+    {
+      "product_id": "524a4948-317f-47b4-9ef5-1d0f930d1b8b",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Organized holistic complexity",
+      "category": "Clothing",
+      "unit_price": 106.27,
+      "stock": 347
+    },
+    {
+      "product_id": "0c027837-5770-471b-af8c-d0f0874ff27b",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Self-enabling 3rdgeneration model",
+      "category": "Books",
+      "unit_price": 56.66,
+      "stock": 403
+    },
+    {
+      "product_id": "9d4c693a-68a8-4d69-ad38-0582641bf335",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Managed systemic forecast",
+      "category": "Books",
+      "unit_price": 69.53,
+      "stock": 196
+    },
+    {
+      "product_id": "c5df7db8-a502-4057-b144-0e27b8e96ed0",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Object-based object-oriented challenge",
+      "category": "Beauty",
+      "unit_price": 268.51,
+      "stock": 192
+    },
+    {
+      "product_id": "2d2091e2-6d4f-488a-9961-28883e606b08",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Adaptive executive model",
+      "category": "Home",
+      "unit_price": 141.14,
+      "stock": 440
+    },
+    {
+      "product_id": "af9c2833-832b-4040-890e-daf78197c67e",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Intuitive optimizing adapter",
+      "category": "Beauty",
+      "unit_price": 262.23,
+      "stock": 435
+    },
+    {
+      "product_id": "4f2eca53-2bc1-4cd6-b6f7-6e3f3bb481bd",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Customer-focused discrete frame",
+      "category": "Beauty",
+      "unit_price": 38.21,
+      "stock": 300
+    },
+    {
+      "product_id": "e83815a8-036d-4de5-8668-b29af3b945c3",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Multi-channeled responsive algorithm",
+      "category": "Books",
+      "unit_price": 282.32,
+      "stock": 366
+    },
+    {
+      "product_id": "81dc144d-29c2-4601-b6c3-a80e853d92ee",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Exclusive real-time archive",
+      "category": "Books",
+      "unit_price": 95.38,
+      "stock": 389
+    },
+    {
+      "product_id": "ca92718a-f1a9-48df-8a26-18e329ad3f8c",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Public-key analyzing portal",
+      "category": "Clothing",
+      "unit_price": 88.59,
+      "stock": 426
+    },
+    {
+      "product_id": "9b678dbd-847e-45e0-a6f8-d1d56bdd4406",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Enterprise-wide motivating pricing structure",
+      "category": "Clothing",
+      "unit_price": 202.36,
+      "stock": 365
+    },
+    {
+      "product_id": "af08094c-1dcc-4258-9a25-ace2fcec7c72",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Team-oriented attitude-oriented hardware",
+      "category": "Clothing",
+      "unit_price": 167.03,
+      "stock": 143
+    },
+    {
+      "product_id": "8251566e-e583-4274-87ec-13e1920e019b",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "De-engineered web-enabled migration",
+      "category": "Beauty",
+      "unit_price": 32.0,
+      "stock": 92
+    },
+    {
+      "product_id": "a08dc75f-45a1-4060-a476-4934ac31dc73",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Enhanced regional software",
+      "category": "Books",
+      "unit_price": 151.21,
+      "stock": 428
+    },
+    {
+      "product_id": "94b15536-d859-4c59-990e-33257a14bea8",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Inverse discrete artificial intelligence",
+      "category": "Books",
+      "unit_price": 233.62,
+      "stock": 134
+    },
+    {
+      "product_id": "44844997-5d81-4077-b82a-d6edb8ad603a",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Phased motivating extranet",
+      "category": "Beauty",
+      "unit_price": 46.21,
+      "stock": 407
+    },
+    {
+      "product_id": "8b137b13-46b9-4a29-adf8-1ee25d8dc83b",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Integrated demand-driven projection",
+      "category": "Electronics",
+      "unit_price": 290.24,
+      "stock": 219
+    },
+    {
+      "product_id": "2f1e71ab-130b-4834-8df4-ba5676033a34",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Enhanced didactic analyzer",
+      "category": "Clothing",
+      "unit_price": 218.77,
+      "stock": 192
+    },
+    {
+      "product_id": "afcc8145-5d97-47cf-9bf8-f85fec9eac5b",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Total cohesive encoding",
+      "category": "Beauty",
+      "unit_price": 248.05,
+      "stock": 230
+    },
+    {
+      "product_id": "431d1fd8-f086-4f61-886f-6d11d8caa514",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Team-oriented upward-trending archive",
+      "category": "Clothing",
+      "unit_price": 69.87,
+      "stock": 50
+    },
+    {
+      "product_id": "efdd7a05-70b7-4dfb-bd26-5ebd8b9cfbd4",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Decentralized uniform focus group",
+      "category": "Books",
+      "unit_price": 44.35,
+      "stock": 274
+    },
+    {
+      "product_id": "796d7b1b-438d-4f9c-a8ba-2e879dd13888",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Triple-buffered actuating moratorium",
+      "category": "Books",
+      "unit_price": 238.16,
+      "stock": 240
+    },
+    {
+      "product_id": "7e03f7ea-16da-4a9a-88b7-682dfb09f13c",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Multi-lateral static neural-net",
+      "category": "Electronics",
+      "unit_price": 163.95,
+      "stock": 32
+    },
+    {
+      "product_id": "2c976844-e148-4474-baae-f3985954821e",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Virtual impactful benchmark",
+      "category": "Electronics",
+      "unit_price": 260.75,
+      "stock": 407
+    },
+    {
+      "product_id": "c0d80843-1e98-45ab-9fee-72ca05710cfe",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Reduced human-resource conglomeration",
+      "category": "Electronics",
+      "unit_price": 165.52,
+      "stock": 215
+    },
+    {
+      "product_id": "e240998d-833f-4eff-9c19-637944675b6c",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Intuitive zero tolerance hardware",
+      "category": "Electronics",
+      "unit_price": 249.95,
+      "stock": 178
+    },
+    {
+      "product_id": "fa0d16fd-b5aa-4b68-83f1-c9eb8e6c1ee9",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Multi-tiered fault-tolerant monitoring",
+      "category": "Books",
+      "unit_price": 133.62,
+      "stock": 129
+    },
+    {
+      "product_id": "9b2ec9ae-f505-49a6-b5d7-de20d0ecad68",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Networked holistic conglomeration",
+      "category": "Beauty",
+      "unit_price": 48.64,
+      "stock": 386
+    },
+    {
+      "product_id": "ab95731b-1b0b-438c-95a5-417d52b037be",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Seamless stable function",
+      "category": "Books",
+      "unit_price": 42.07,
+      "stock": 299
+    },
+    {
+      "product_id": "9307340b-8c96-4427-87c4-4b576d98a64b",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Sharable holistic instruction set",
+      "category": "Books",
+      "unit_price": 183.23,
+      "stock": 198
+    },
+    {
+      "product_id": "40e5ba2e-22b5-46e4-b169-75af59573a1a",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Open-architected transitional model",
+      "category": "Books",
+      "unit_price": 116.45,
+      "stock": 256
+    },
+    {
+      "product_id": "707ff627-5c70-4421-bd98-d7bd96062b18",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Switchable holistic extranet",
+      "category": "Beauty",
+      "unit_price": 248.8,
+      "stock": 494
+    },
+    {
+      "product_id": "9785d952-ea8a-4e06-bb52-6242e9cdb946",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Streamlined system-worthy knowledge user",
+      "category": "Home",
+      "unit_price": 277.75,
+      "stock": 389
+    },
+    {
+      "product_id": "3e3c2f7b-9925-4256-887f-0f8cdecc871c",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Customer-focused actuating open system",
+      "category": "Books",
+      "unit_price": 174.37,
+      "stock": 498
+    },
+    {
+      "product_id": "9b81cb87-296e-4c29-9383-07555f952f77",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Fundamental solution-oriented installation",
+      "category": "Home",
+      "unit_price": 78.08,
+      "stock": 137
+    },
+    {
+      "product_id": "0620f371-1fc1-47ce-8e63-c799908df730",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Sharable 24hour groupware",
+      "category": "Books",
+      "unit_price": 228.85,
+      "stock": 351
+    },
+    {
+      "product_id": "ff79ec5e-3188-4138-b937-4a72040ce995",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Sharable bandwidth-monitored frame",
+      "category": "Clothing",
+      "unit_price": 250.68,
+      "stock": 14
+    },
+    {
+      "product_id": "59ea08c6-c7a8-4f6b-ba69-7ded1d92457c",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Operative 6thgeneration support",
+      "category": "Books",
+      "unit_price": 72.15,
+      "stock": 3
+    },
+    {
+      "product_id": "41b8662f-e6be-4b1e-b874-f052c47ce2f5",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Multi-lateral responsive customer loyalty",
+      "category": "Books",
+      "unit_price": 159.2,
+      "stock": 400
+    },
+    {
+      "product_id": "5bae2d8d-e1c7-4ab2-ad7e-ebeaa3c61b0d",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Diverse methodical budgetary management",
+      "category": "Books",
+      "unit_price": 80.19,
+      "stock": 118
+    },
+    {
+      "product_id": "ea11aeeb-fc8f-4b70-af56-72b3e7c655c9",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Operative human-resource system engine",
+      "category": "Electronics",
+      "unit_price": 164.21,
+      "stock": 464
+    },
+    {
+      "product_id": "52011b38-2633-44bd-8c9c-cbd37b5bcbd9",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Multi-lateral high-level productivity",
+      "category": "Beauty",
+      "unit_price": 51.16,
+      "stock": 165
+    },
+    {
+      "product_id": "6ac3dd91-7659-4b16-af64-d6b4759f3b2b",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Organized dedicated hardware",
+      "category": "Beauty",
+      "unit_price": 201.22,
+      "stock": 475
+    },
+    {
+      "product_id": "d6681773-8d27-4e77-9782-27429c3e2db8",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Monitored zero administration flexibility",
+      "category": "Clothing",
+      "unit_price": 69.85,
+      "stock": 427
+    },
+    {
+      "product_id": "5fd09152-0583-4d41-9efd-43e10a6bddd0",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Up-sized web-enabled info-mediaries",
+      "category": "Books",
+      "unit_price": 250.95,
+      "stock": 72
+    },
+    {
+      "product_id": "273e486c-32bc-4ea2-a7a5-2ad6ce5fe97d",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Total 3rdgeneration frame",
+      "category": "Books",
+      "unit_price": 95.9,
+      "stock": 170
+    },
+    {
+      "product_id": "58d63d19-169c-4c81-80e7-27dffb649c34",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Fundamental attitude-oriented definition",
+      "category": "Clothing",
+      "unit_price": 21.31,
+      "stock": 222
+    },
+    {
+      "product_id": "9bad810a-ac03-41d0-8b8b-78188ffa53b8",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Integrated hybrid functionalities",
+      "category": "Books",
+      "unit_price": 52.24,
+      "stock": 431
+    },
+    {
+      "product_id": "f4848d87-14ef-4f88-95e9-ce81fb13588d",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Cloned solution-oriented toolset",
+      "category": "Beauty",
+      "unit_price": 30.07,
+      "stock": 495
+    },
+    {
+      "product_id": "46ea41f7-a0d3-4698-9d8a-a58d0ff7aa0d",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Managed 3rdgeneration circuit",
+      "category": "Home",
+      "unit_price": 214.83,
+      "stock": 261
+    },
+    {
+      "product_id": "6e16fb66-f5b3-4145-a6ad-5018255e4a26",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Synchronized regional approach",
+      "category": "Home",
+      "unit_price": 21.41,
+      "stock": 353
+    },
+    {
+      "product_id": "0599d909-1d55-4fe1-b7c0-7224f3a3790f",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Face-to-face non-volatile flexibility",
+      "category": "Beauty",
+      "unit_price": 277.69,
+      "stock": 362
+    },
+    {
+      "product_id": "0130064d-c173-45dd-bc89-dee96b370636",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Centralized next generation paradigm",
+      "category": "Books",
+      "unit_price": 75.23,
+      "stock": 439
+    },
+    {
+      "product_id": "585a2d94-e90c-429b-91fc-04d6d447bf11",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Cross-platform dedicated analyzer",
+      "category": "Clothing",
+      "unit_price": 263.84,
+      "stock": 325
+    },
+    {
+      "product_id": "63a4c72b-e860-4dc5-afc2-6b2ddc7ff54c",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Advanced radical Graphical User Interface",
+      "category": "Books",
+      "unit_price": 136.13,
+      "stock": 420
+    },
+    {
+      "product_id": "143efe66-90e9-4fac-a3b0-cf2bf5b2c6f2",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Distributed dedicated framework",
+      "category": "Home",
+      "unit_price": 186.91,
+      "stock": 228
+    },
+    {
+      "product_id": "3108f178-13a2-477d-85e8-2782a02601b7",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Business-focused methodical project",
+      "category": "Clothing",
+      "unit_price": 190.29,
+      "stock": 425
+    },
+    {
+      "product_id": "480160b4-f28f-422d-847d-4ff702dcd139",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Ergonomic real-time algorithm",
+      "category": "Clothing",
+      "unit_price": 271.25,
+      "stock": 227
+    },
+    {
+      "product_id": "fa9f5584-5770-4933-85c8-3e2f2593d14d",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Re-engineered heuristic Internet solution",
+      "category": "Books",
+      "unit_price": 8.32,
+      "stock": 157
+    },
+    {
+      "product_id": "8ed631ac-fc07-4e36-b420-f46cced954c7",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Customer-focused explicit database",
+      "category": "Beauty",
+      "unit_price": 238.53,
+      "stock": 26
+    },
+    {
+      "product_id": "10bd6708-03ef-40a8-8ecb-32cfecf1e275",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Secured zero tolerance productivity",
+      "category": "Home",
+      "unit_price": 189.64,
+      "stock": 298
+    },
+    {
+      "product_id": "4ba224f3-ab39-4a01-893d-4c9275b6103f",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Robust coherent access",
+      "category": "Clothing",
+      "unit_price": 90.07,
+      "stock": 66
+    },
+    {
+      "product_id": "b4c37922-6e0a-481a-b10a-2f7ca3d457de",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Cross-platform needs-based function",
+      "category": "Clothing",
+      "unit_price": 230.53,
+      "stock": 331
+    },
+    {
+      "product_id": "6ad7c3ab-64a6-439f-85d5-af824172bde5",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Multi-tiered transitional instruction set",
+      "category": "Clothing",
+      "unit_price": 160.04,
+      "stock": 379
+    },
+    {
+      "product_id": "efd178d4-d371-4abd-8354-ea7b3ca86e66",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Realigned next generation utilization",
+      "category": "Beauty",
+      "unit_price": 6.5,
+      "stock": 29
+    },
+    {
+      "product_id": "d5bd07ce-048d-48e3-b80b-d4bcf2b2e673",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Re-engineered transitional emulation",
+      "category": "Books",
+      "unit_price": 266.91,
+      "stock": 78
+    },
+    {
+      "product_id": "d7feb4aa-021d-4f50-aecc-353d4d396fc0",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Quality-focused 5thgeneration structure",
+      "category": "Beauty",
+      "unit_price": 72.02,
+      "stock": 263
+    },
+    {
+      "product_id": "dd4355ad-3455-44bb-89d6-1e1f311d3bea",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Advanced analyzing leverage",
+      "category": "Clothing",
+      "unit_price": 99.36,
+      "stock": 397
+    },
+    {
+      "product_id": "617baeaf-ad9b-412f-b706-b834c341a6f8",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Open-architected web-enabled utilization",
+      "category": "Clothing",
+      "unit_price": 97.66,
+      "stock": 398
+    },
+    {
+      "product_id": "a6401da8-a4e9-4f4b-9583-49af2be1b3b2",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Implemented full-range monitoring",
+      "category": "Clothing",
+      "unit_price": 68.44,
+      "stock": 71
+    },
+    {
+      "product_id": "d209e4e7-9878-4617-a0a9-cbe32c5be60a",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Grass-roots disintermediate contingency",
+      "category": "Clothing",
+      "unit_price": 192.05,
+      "stock": 246
+    },
+    {
+      "product_id": "9cde5ec4-2ec8-4146-aaba-aa5d2d2f8fc8",
+      "seller_id": "473debe7-1589-4a02-b988-495968cf0c5a",
+      "name": "Realigned tangible parallelism",
+      "category": "Beauty",
+      "unit_price": 124.35,
+      "stock": 82
+    },
+    {
+      "product_id": "38de0a3c-64f3-408a-a07f-a705b8bd00d6",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Mandatory clear-thinking matrices",
+      "category": "Clothing",
+      "unit_price": 72.14,
+      "stock": 65
+    },
+    {
+      "product_id": "b2400614-f21e-4359-a314-6ff7b3da0185",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Networked grid-enabled system engine",
+      "category": "Electronics",
+      "unit_price": 88.64,
+      "stock": 156
+    },
+    {
+      "product_id": "660ba14a-d3c1-43ad-ae9a-e183ba2cc99c",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Re-contextualized executive data-warehouse",
+      "category": "Books",
+      "unit_price": 112.89,
+      "stock": 106
+    },
+    {
+      "product_id": "bd01b16f-6a01-4f53-8e44-c5c082f92c11",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Reverse-engineered composite extranet",
+      "category": "Home",
+      "unit_price": 236.02,
+      "stock": 400
+    },
+    {
+      "product_id": "49965494-662b-42b3-89a0-c6ad7806f016",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Organized foreground capacity",
+      "category": "Clothing",
+      "unit_price": 251.89,
+      "stock": 455
+    },
+    {
+      "product_id": "ebdb53cf-1322-4108-a75d-7220bb6205b0",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Automated value-added flexibility",
+      "category": "Beauty",
+      "unit_price": 232.96,
+      "stock": 454
+    },
+    {
+      "product_id": "c21d7099-fa4a-40e4-b5a8-054406c141d7",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Realigned secondary website",
+      "category": "Beauty",
+      "unit_price": 280.36,
+      "stock": 152
+    },
+    {
+      "product_id": "609b3bba-510e-4bfc-aa09-cc4f032b6cf8",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Open-source fresh-thinking success",
+      "category": "Books",
+      "unit_price": 266.43,
+      "stock": 441
+    },
+    {
+      "product_id": "00e85fa9-b8e4-4882-9860-0a90cd8fc3bd",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Networked analyzing model",
+      "category": "Books",
+      "unit_price": 270.53,
+      "stock": 178
+    },
+    {
+      "product_id": "f2b1f186-2cbd-4b60-9296-cbcffc7bc7df",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Virtual human-resource project",
+      "category": "Books",
+      "unit_price": 299.82,
+      "stock": 7
+    },
+    {
+      "product_id": "7eddc064-d176-4912-a191-1e717ec73036",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Secured coherent artificial intelligence",
+      "category": "Clothing",
+      "unit_price": 155.79,
+      "stock": 328
+    },
+    {
+      "product_id": "fa226fee-6b14-4c0e-8a9e-08bf577d27ed",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Open-architected zero-defect frame",
+      "category": "Books",
+      "unit_price": 22.89,
+      "stock": 409
+    },
+    {
+      "product_id": "b42311e1-65bc-4587-89fa-1bcbf183aa46",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Multi-layered analyzing artificial intelligence",
+      "category": "Books",
+      "unit_price": 285.93,
+      "stock": 185
+    },
+    {
+      "product_id": "3604440d-911d-4b23-bef4-568512afb245",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Synergized cohesive Graphical User Interface",
+      "category": "Clothing",
+      "unit_price": 49.43,
+      "stock": 224
+    },
+    {
+      "product_id": "8e490c80-d1f9-4f04-90c3-014289efe438",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Open-source logistical implementation",
+      "category": "Books",
+      "unit_price": 106.16,
+      "stock": 22
+    },
+    {
+      "product_id": "66a2e82f-3d71-4efb-8055-30aa6eb50e12",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Synchronized 4thgeneration hierarchy",
+      "category": "Clothing",
+      "unit_price": 209.16,
+      "stock": 14
+    },
+    {
+      "product_id": "cfd0c6d3-298f-45ce-aa39-de38a57f8bc4",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Self-enabling bi-directional challenge",
+      "category": "Clothing",
+      "unit_price": 202.97,
+      "stock": 166
+    },
+    {
+      "product_id": "8f8b5415-c9f5-45b2-a6dc-e798fb91a562",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Re-engineered bifurcated software",
+      "category": "Clothing",
+      "unit_price": 256.85,
+      "stock": 240
+    },
+    {
+      "product_id": "a77bd15c-b383-4dcf-a522-73353b456a45",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Virtual composite utilization",
+      "category": "Clothing",
+      "unit_price": 258.32,
+      "stock": 46
+    },
+    {
+      "product_id": "346bc9c8-ce9a-408a-ac42-22c83d583d5b",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Cross-group high-level monitoring",
+      "category": "Beauty",
+      "unit_price": 292.77,
+      "stock": 95
+    },
+    {
+      "product_id": "fd2a111a-6ffb-41fd-9942-7e69f3a419f4",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Persevering secondary methodology",
+      "category": "Books",
+      "unit_price": 272.64,
+      "stock": 483
+    },
+    {
+      "product_id": "11de7b6d-9280-4f00-8d2d-b6c7a6bc0c09",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Multi-lateral motivating parallelism",
+      "category": "Home",
+      "unit_price": 81.82,
+      "stock": 451
+    },
+    {
+      "product_id": "27138dcd-9355-491e-93e6-e16e8126ade3",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Open-source static Graphic Interface",
+      "category": "Books",
+      "unit_price": 293.0,
+      "stock": 369
+    },
+    {
+      "product_id": "eac46e87-4191-4204-916e-d7df94aebf7f",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Down-sized clear-thinking structure",
+      "category": "Beauty",
+      "unit_price": 87.44,
+      "stock": 488
+    },
+    {
+      "product_id": "b3f952f9-b328-4fce-baa9-1b54d631b677",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Digitized directional focus group",
+      "category": "Clothing",
+      "unit_price": 289.42,
+      "stock": 456
+    },
+    {
+      "product_id": "35ad8fb1-abe2-44f3-aa44-b294236eb717",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Business-focused full-range success",
+      "category": "Books",
+      "unit_price": 154.01,
+      "stock": 147
+    },
+    {
+      "product_id": "fee337ce-8743-450e-9b99-33525abe8fa9",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Pre-emptive 24hour hardware",
+      "category": "Books",
+      "unit_price": 283.24,
+      "stock": 181
+    },
+    {
+      "product_id": "7bcc606a-b17d-4054-94c4-5fd1ef04976e",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Distributed stable Internet solution",
+      "category": "Electronics",
+      "unit_price": 130.28,
+      "stock": 141
+    },
+    {
+      "product_id": "c6ec020e-3f94-4960-bf87-c0a0792516c8",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Stand-alone uniform functionalities",
+      "category": "Clothing",
+      "unit_price": 289.47,
+      "stock": 179
+    },
+    {
+      "product_id": "b81c8af3-3889-4ed5-8174-808792888ff5",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Front-line explicit flexibility",
+      "category": "Books",
+      "unit_price": 32.65,
+      "stock": 309
+    },
+    {
+      "product_id": "1c8079ac-fd99-40f7-a3d8-0665a4b0c9ed",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Customer-focused mission-critical Graphical User Interface",
+      "category": "Books",
+      "unit_price": 282.11,
+      "stock": 217
+    },
+    {
+      "product_id": "83cade45-5d10-48a0-a976-d9dbddb4ea46",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Visionary local Graphical User Interface",
+      "category": "Beauty",
+      "unit_price": 149.12,
+      "stock": 434
+    },
+    {
+      "product_id": "b526bbf6-4075-4280-b8e3-f122d5c4cfe8",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Assimilated transitional leverage",
+      "category": "Home",
+      "unit_price": 135.87,
+      "stock": 130
+    },
+    {
+      "product_id": "277c8cb1-885f-4944-9c11-9ba909066da9",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Integrated bandwidth-monitored support",
+      "category": "Clothing",
+      "unit_price": 173.9,
+      "stock": 230
+    },
+    {
+      "product_id": "cce4499b-829b-4669-8941-9efb4af1000d",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Versatile neutral adapter",
+      "category": "Books",
+      "unit_price": 36.04,
+      "stock": 77
+    },
+    {
+      "product_id": "ea3e44c7-19ee-4454-97fb-91586b4e91b7",
+      "seller_id": "ced74baf-64c2-4ffc-b590-c41eeb16f987",
+      "name": "Open-source even-keeled emulation",
+      "category": "Electronics",
+      "unit_price": 14.27,
+      "stock": 376
+    },
+    {
+      "product_id": "ba4d4cd2-d8d4-47ef-997f-a801b5ecd0eb",
+      "seller_id": "e790fd8c-c49e-42b3-a21d-d68918e7c5ac",
+      "name": "Down-sized eco-centric product",
+      "category": "Books",
+      "unit_price": 235.8,
+      "stock": 380
+    },
+    {
+      "product_id": "71e9a1d3-ec90-4a0f-9c73-16fb1778111d",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Monitored encompassing approach",
+      "category": "Clothing",
+      "unit_price": 141.64,
+      "stock": 404
+    },
+    {
+      "product_id": "bc92ecc8-d88c-4f4d-bd9d-3f2a7db12696",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Versatile empowering concept",
+      "category": "Books",
+      "unit_price": 231.54,
+      "stock": 26
+    },
+    {
+      "product_id": "8219cdc3-1778-4d5e-8a1b-2f4a6f5cbb64",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Streamlined interactive paradigm",
+      "category": "Books",
+      "unit_price": 206.4,
+      "stock": 241
+    },
+    {
+      "product_id": "e169839b-5d05-4bf1-9e62-224f57360e09",
+      "seller_id": "3ef886d9-ad1f-4769-9860-c250fb1031f9",
+      "name": "Balanced static structure",
+      "category": "Clothing",
+      "unit_price": 78.53,
+      "stock": 492
+    },
+    {
+      "product_id": "bdce3efc-596a-49bd-8ee0-1338ca01d49a",
+      "seller_id": "ab458a91-62da-4410-ab54-a38cf5e5e6ea",
+      "name": "Balanced attitude-oriented data-warehouse",
+      "category": "Clothing",
+      "unit_price": 46.84,
+      "stock": 401
+    },
+    {
+      "product_id": "a0766c07-2c89-4683-9e4b-e39b3ab47977",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Programmable tangible instruction set",
+      "category": "Books",
+      "unit_price": 174.74,
+      "stock": 361
+    },
+    {
+      "product_id": "fdbbd564-734a-41a5-908e-fde0b9bff353",
+      "seller_id": "6483843d-2ea2-46ce-a774-16b51525c663",
+      "name": "Cross-group regional project",
+      "category": "Beauty",
+      "unit_price": 255.74,
+      "stock": 412
+    },
+    {
+      "product_id": "2d170bd4-557d-4c8a-ae8c-d2f3fa7cb20e",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Fundamental directional benchmark",
+      "category": "Beauty",
+      "unit_price": 153.47,
+      "stock": 416
+    },
+    {
+      "product_id": "4ae5171e-40c2-44ee-8f01-b486b7b60528",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "User-centric high-level framework",
+      "category": "Home",
+      "unit_price": 140.27,
+      "stock": 453
+    },
+    {
+      "product_id": "2d1cf642-9e30-4369-98ef-7a590b1bcfb5",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Operative transitional portal",
+      "category": "Clothing",
+      "unit_price": 223.23,
+      "stock": 133
+    },
+    {
+      "product_id": "d8f0d974-c9dc-486c-ad57-c6a143a88715",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Implemented asymmetric interface",
+      "category": "Books",
+      "unit_price": 102.54,
+      "stock": 345
+    },
+    {
+      "product_id": "9d604b89-87d1-4a72-ba80-d3888e339d5f",
+      "seller_id": "5a6c39af-2e59-4280-a2b5-a68698aea25f",
+      "name": "Digitized logistical system engine",
+      "category": "Home",
+      "unit_price": 232.15,
+      "stock": 389
+    },
+    {
+      "product_id": "bf6c9143-b59a-4279-88f7-311f486df4b3",
+      "seller_id": "acd160bf-84c3-4854-b17e-7a58c0af7e28",
+      "name": "Enterprise-wide dynamic standardization",
+      "category": "Clothing",
+      "unit_price": 188.65,
+      "stock": 42
+    },
+    {
+      "product_id": "b94c0e23-f5b8-451c-bd22-44fe82ce91ce",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Object-based clear-thinking pricing structure",
+      "category": "Beauty",
+      "unit_price": 139.53,
+      "stock": 113
+    },
+    {
+      "product_id": "bb7dc05e-ee9f-4e61-bded-500fbd645b8d",
+      "seller_id": "58ff7068-94f7-4d3b-8f8b-61710946d35a",
+      "name": "Future-proofed 4thgeneration methodology",
+      "category": "Books",
+      "unit_price": 283.76,
+      "stock": 107
+    },
+    {
+      "product_id": "49eee723-d535-4a39-a47d-cf285fc1cafd",
+      "seller_id": "4ec40fe7-708b-48a7-ba68-20d06af920d5",
+      "name": "Balanced national installation",
+      "category": "Beauty",
+      "unit_price": 143.49,
+      "stock": 137
+    },
+    {
+      "product_id": "3da29712-da1b-4e8c-be38-a9907959f77f",
+      "seller_id": "966d47a6-389a-4242-ad5f-e95d0c9dcc52",
+      "name": "Function-based multimedia forecast",
+      "category": "Home",
+      "unit_price": 90.1,
+      "stock": 253
+    },
+    {
+      "product_id": "5ce99d7c-78dc-4f6d-805e-b6a2737d6764",
+      "seller_id": "427db0dd-d105-4aa1-8419-737ba10e760e",
+      "name": "Multi-channeled methodical functionalities",
+      "category": "Books",
+      "unit_price": 14.87,
+      "stock": 175
+    },
+    {
+      "product_id": "dee23f09-5862-4179-9139-db4d86e6c346",
+      "seller_id": "97c8af7c-3925-4755-9f2a-4914573c6a7a",
+      "name": "Up-sized 3rdgeneration policy",
+      "category": "Books",
+      "unit_price": 178.21,
+      "stock": 159
+    },
+    {
+      "product_id": "d8e91775-8f5d-4c29-9183-acc314e5fdc2",
+      "seller_id": "6c01be4d-1efc-4c39-8d87-a02aff8b54f9",
+      "name": "Implemented systemic solution",
+      "category": "Home",
+      "unit_price": 30.57,
+      "stock": 165
+    },
+    {
+      "product_id": "7e18f794-0ed9-410f-8342-a9b48e8e13a4",
+      "seller_id": "3401c341-8a62-40d4-a2cb-01df85113bd6",
+      "name": "Advanced responsive open architecture",
+      "category": "Clothing",
+      "unit_price": 183.86,
+      "stock": 301
+    },
+    {
+      "product_id": "e76113c8-507a-4973-9e72-0cb432812eb6",
+      "seller_id": "801eead6-9d08-4092-9da5-3ad6a35a6338",
+      "name": "Ameliorated system-worthy process improvement",
+      "category": "Books",
+      "unit_price": 13.83,
+      "stock": 175
+    },
+    {
+      "product_id": "82c6c37c-d213-4c95-99f4-ffffa454a0a4",
+      "seller_id": "d6cd1cb1-0b65-4672-937c-6c90a35fe129",
+      "name": "Quality-focused optimal orchestration",
+      "category": "Books",
+      "unit_price": 224.28,
+      "stock": 51
+    },
+    {
+      "product_id": "0e94f853-66b3-4792-889b-1b60799dbc00",
+      "seller_id": "342adf4c-4593-4f69-9ad6-fc022928f965",
+      "name": "Intuitive executive leverage",
+      "category": "Beauty",
+      "unit_price": 186.89,
+      "stock": 355
+    },
+    {
+      "product_id": "d584323e-2a41-4d78-8f11-b5130503313d",
+      "seller_id": "c78b09b1-74da-4951-86b1-6bcb14a515e6",
+      "name": "Re-contextualized solution-oriented circuit",
+      "category": "Books",
+      "unit_price": 6.24,
+      "stock": 111
+    },
+    {
+      "product_id": "6db1ebc7-d314-40ac-854e-ad633200eca2",
+      "seller_id": "1e948db0-7783-44f5-b7c6-b88286109b8b",
+      "name": "Programmable multimedia implementation",
+      "category": "Clothing",
+      "unit_price": 45.74,
+      "stock": 450
+    }
+  ]
+}

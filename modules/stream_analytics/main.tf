@@ -12,7 +12,7 @@ resource "azurerm_stream_analytics_job" "asa_job" {
 
   transformation_query = <<QUERY
 
-    /* 1. Orders -> fact_order */
+    /* 1. Orders -> bronze.orders */
   
     SELECT
         o.order_id,
@@ -28,21 +28,8 @@ resource "azurerm_stream_analytics_job" "asa_job" {
         [InputOrders] o
     CROSS APPLY GetArrayElements(o.items) AS i
 
-  
-    /* 2. Orders -> dim_product */
-  
-    SELECT
-        i.ArrayValue.product_id,
-        i.ArrayValue.name,
-        i.ArrayValue.category
-    INTO
-        [OutputDimProduct]
-    FROM
-        [InputOrders] o
-    CROSS APPLY GetArrayElements(o.items) AS i
-
     
-    /* 3. Orders (Customer info) -> dim_customer */
+    /* 3. Orders (Customer info) -> bronze.customer */
     
     SELECT
         customer.id AS customer_id,
@@ -56,7 +43,7 @@ resource "azurerm_stream_analytics_job" "asa_job" {
     FROM
         [InputOrders]
 
-    /* 4. Clickstream -> fact_clickstream */
+    /* 4. Clickstream -> bronze.clickstream */
     SELECT
         event_id,
         session_id,
@@ -108,7 +95,7 @@ resource "azurerm_stream_analytics_stream_input_eventhub" "input_clickstream" {
 
 # --- OUTPUTS ---
 
-resource "azurerm_stream_analytics_output_mssql" "output_fact_order" {
+resource "azurerm_stream_analytics_output_mssql" "output_order" {
   name                      = "OutputFactOrder"
   stream_analytics_job_name = azurerm_stream_analytics_job.asa_job.name
   resource_group_name       = var.resource_group_name
@@ -116,10 +103,10 @@ resource "azurerm_stream_analytics_output_mssql" "output_fact_order" {
   user                      = var.sql_admin_login
   password                  = var.sql_admin_password
   database                  = var.sql_database_name
-  table                     = "fact_order"
+  table                     = "bronze.orders"
 }
 
-resource "azurerm_stream_analytics_output_mssql" "output_dim_customer" {
+resource "azurerm_stream_analytics_output_mssql" "output_customer" {
   name                      = "OutputDimCustomer"
   stream_analytics_job_name = azurerm_stream_analytics_job.asa_job.name
   resource_group_name       = var.resource_group_name
@@ -127,21 +114,10 @@ resource "azurerm_stream_analytics_output_mssql" "output_dim_customer" {
   user                      = var.sql_admin_login
   password                  = var.sql_admin_password
   database                  = var.sql_database_name
-  table                     = "dim_customer"
+  table                     = "bronze.customer"
 }
 
-resource "azurerm_stream_analytics_output_mssql" "output_dim_product" {
-  name                      = "OutputDimProduct"
-  stream_analytics_job_name = azurerm_stream_analytics_job.asa_job.name
-  resource_group_name       = var.resource_group_name
-  server                    = var.sql_server_fqdn
-  user                      = var.sql_admin_login
-  password                  = var.sql_admin_password
-  database                  = var.sql_database_name
-  table                     = "dim_product"
-}
-
-resource "azurerm_stream_analytics_output_mssql" "output_fact_clickstream" {
+resource "azurerm_stream_analytics_output_mssql" "output_clickstream" {
   name                      = "OutputFactClickstream"
   stream_analytics_job_name = azurerm_stream_analytics_job.asa_job.name
   resource_group_name       = var.resource_group_name
@@ -149,7 +125,7 @@ resource "azurerm_stream_analytics_output_mssql" "output_fact_clickstream" {
   user                      = var.sql_admin_login
   password                  = var.sql_admin_password
   database                  = var.sql_database_name
-  table                     = "fact_clickstream"
+  table                     = "bronze.clickstream"
 }
 
 # Terraform crée et configure le job Stream Analytics, mais Azure ne démarre
@@ -164,10 +140,9 @@ resource "null_resource" "start_job" {
     azurerm_stream_analytics_job.asa_job,
     azurerm_stream_analytics_stream_input_eventhub.input_orders,
     azurerm_stream_analytics_stream_input_eventhub.input_clickstream,
-    azurerm_stream_analytics_output_mssql.output_fact_order,
-    azurerm_stream_analytics_output_mssql.output_dim_customer,
-    azurerm_stream_analytics_output_mssql.output_dim_product,
-    azurerm_stream_analytics_output_mssql.output_fact_clickstream
+    azurerm_stream_analytics_output_mssql.output_order,
+    azurerm_stream_analytics_output_mssql.output_customer,
+    azurerm_stream_analytics_output_mssql.output_clickstream
   ]
 
   provisioner "local-exec" {

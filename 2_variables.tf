@@ -26,10 +26,19 @@ variable "sql_admin_password" {
   sensitive = true
 }
 
-variable "dockerhub_username" {
+# variable "dockerhub_username" {
+#   type = string
+# }
+
+# variable "dockerhub_token" {
+#   type = string
+# }
+
+variable "sql_connection_string" {
   type = string
 }
 
-variable "dockerhub_token" {
-  type = string
+variable "notification_email" {
+  type        = string
+  description = "Email address for notifications"
 }

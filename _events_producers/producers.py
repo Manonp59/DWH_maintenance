@@ -30,6 +30,12 @@ producers = {
 
 timers = {name: 0 for name in EVENT_HUBS}
 
+with open("catalog.json", "r") as f:
+    master_catalog = json.load(f)
+
+SELLERS_POOL = master_catalog["sellers"]
+PRODUCTS_POOL = master_catalog["products"]
+
 # Global pool of customers
 CUSTOMERS_POOL = []
 for _ in range(100):
@@ -42,16 +48,6 @@ for _ in range(100):
         "country": fake.country()
     })
 
-# Global pool of products
-PRODUCTS_POOL = []
-for _ in range(1000):
-    PRODUCTS_POOL.append({
-        "product_id": str(uuid.uuid4()),
-        "name": fake.catch_phrase(),
-        "category": random.choice(["Electronics", "Home", "Clothing", "Books", "Beauty"]),
-        "description": fake.sentence(),
-        "price": round(random.uniform(5, 300), 2)
-    })
 
 def build_event(name, now):
     if name == "orders":
@@ -68,7 +64,7 @@ def build_event(name, now):
             item = product.copy()
             item["quantity"] = qty
             items.append(item)
-            total_amount += product["price"] * qty
+            total_amount += product["unit_price"] * qty
         
         # Pick a random customer from the pool
         customer = random.choice(CUSTOMERS_POOL)
@@ -94,12 +90,11 @@ def build_event(name, now):
         elif event_type == "checkout_start":
             url = "/checkout"
         else:  # view_page
-            category = random.choice(["Electronics", "Home", "Clothing", "Books", "Beauty"])
             product = random.choice(PRODUCTS_POOL)
             url = random.choice([
                 "/",
                 "/login",
-                f"/category/{category}",
+                f"/category/{product['category']}",
                 f"/product/{product['product_id']}"
             ])
         

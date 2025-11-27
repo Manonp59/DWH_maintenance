@@ -8,8 +8,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # On copie le script
-COPY producers.py .
+COPY main.py .
 COPY catalog.json .
 
+EXPOSE 8080
+
 # On lance la boucle infinie
-CMD ["python", "producers.py"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
