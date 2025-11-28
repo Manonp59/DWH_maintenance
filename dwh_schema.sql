@@ -26,6 +26,18 @@ DROP TABLE IF EXISTS silver.clickstream;
 GO
 DROP SCHEMA IF EXISTS silver;
 GO
+DROP TABLE IF EXISTS gold.customer;
+GO
+DROP TABLE IF EXISTS gold.product;
+GO
+DROP TABLE IF EXISTS gold.seller;
+GO
+DROP TABLE IF EXISTS gold.orders;
+GO
+DROP TABLE IF EXISTS gold.clickstream;
+GO  
+DROP VIEW IF EXISTS gold.sales_by_seller;
+GO
 DROP SCHEMA IF EXISTS gold ;
 GO
 CREATE SCHEMA bronze;
@@ -129,7 +141,10 @@ CREATE TABLE silver.customer (
     email       NVARCHAR(255) NOT NULL,
     address     NVARCHAR(500) NOT NULL,
     city        NVARCHAR(100) NOT NULL,
-    country     NVARCHAR(100) NOT NULL
+    country     NVARCHAR(100) NOT NULL,
+    valid_from       DATETIME      NOT NULL,
+    valid_to         DATETIME      NULL,
+    is_current       BIT           NOT NULL DEFAULT 1   -- indique la version en cours (
 );
 GO
 
@@ -196,10 +211,10 @@ CREATE TABLE gold.orders (
     status          NVARCHAR(50),
     order_timestamp DATETIME,
     seller_id NVARCHAR(100),
-    total_price     AS (quantity * unit_price) PERSISTED,
-    order_year      AS (YEAR(order_timestamp)) PERSISTED,
-    order_month     AS (MONTH(order_timestamp)) PERSISTED,
-    order_day       AS (DAY(order_timestamp)) PERSISTED,
+    total_price     AS (quantity * unit_price) ,
+    order_year      AS (YEAR(order_timestamp)) ,
+    order_month     AS (MONTH(order_timestamp)) ,
+    order_day       AS (DAY(order_timestamp)) ,
 );
 GO
 -- 5. gold.clickstream
