@@ -280,6 +280,16 @@ BEGIN
     UPDATE bronze.customer
     SET name = NULL, email = NULL, address = NULL, city = NULL, country = NULL
     WHERE customer_id IN (SELECT customer_id FROM @ClientsPurge);
+
+    -- ANONYMISATION silver :
+    UPDATE silver.customer
+    SET name = NULL, email = NULL, address = NULL, city = NULL, country = NULL
+    WHERE customer_id IN (SELECT customer_id FROM @ClientsPurge);
+
+    -- ANONYMISATION gold :
+    UPDATE gold.customer
+    SET name = NULL, email = NULL, address = NULL, city = NULL, country = NULL
+    WHERE customer_id IN (SELECT customer_id FROM @ClientsPurge);
     
     -- audit
     INSERT INTO audit_purge (customer_id, action_date, action_type)
@@ -302,6 +312,24 @@ BEGIN
         country = NULL
     WHERE customer_id = @customer_id;
 
+    -- Anonymisation silver :
+    UPDATE silver.customer
+    SET name = NULL,
+        email = NULL,
+        address = NULL,
+        city = NULL,
+        country = NULL
+    WHERE customer_id = @customer_id;
+
+    -- Anonymisation gold :
+    UPDATE gold.customer
+    SET name = NULL,
+        email = NULL,
+        address = NULL,
+        city = NULL,
+        country = NULL
+    WHERE customer_id = @customer_id;
+
     -- Audit
     INSERT INTO audit_purge (customer_id, action_date, action_type)
     VALUES (@customer_id, GETDATE(), "DROIT_OUBLI");
@@ -316,6 +344,20 @@ BEGIN
     -- 1. Identifier les clients à réanonymiser après restauration
     -- (ceux qui ont été purgés après la backup restaurée)
     UPDATE bronze.customer
+    SET name = NULL,
+        email = NULL,
+        address = NULL,
+        city = NULL,
+        country = NULL
+    WHERE customer_id IN (
+        SELECT customer_id
+        FROM audit_purge
+        WHERE action_date > @restore_date
+            AND action_type IN ("DROIT_OUBLI", "PURGE_INACTIVE_CUSTOMER")
+    );
+
+    -- Anonymisation silver :
+    UPDATE silver.customer
     SET name = NULL,
         email = NULL,
         address = NULL,
