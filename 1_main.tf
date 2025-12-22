@@ -48,7 +48,7 @@ module "container_producers" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
 
-  container_image   = var.container_producers_image
+  container_image   = "manon29/events-producer:latest"
   connection_string = module.module_event_hubs.send_connection_string
 
   # dockerhub_username = var.dockerhub_username
