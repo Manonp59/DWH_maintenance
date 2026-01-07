@@ -137,11 +137,11 @@ GO
 -- customer
 CREATE TABLE silver.customer (
     customer_id VARCHAR(50) PRIMARY KEY,
-    name        NVARCHAR(255) NOT NULL,
-    email       NVARCHAR(255) NOT NULL,
-    address     NVARCHAR(500) NOT NULL,
-    city        NVARCHAR(100) NOT NULL,
-    country     NVARCHAR(100) NOT NULL,
+    name        NVARCHAR(255),
+    email       NVARCHAR(255),
+    address     NVARCHAR(500),
+    city        NVARCHAR(100),
+    country     NVARCHAR(100),
     valid_from       DATETIME      NOT NULL,
     valid_to         DATETIME      NULL,
     is_current       BIT           NOT NULL DEFAULT 1   -- indique la version en cours (
@@ -288,7 +288,7 @@ BEGIN
 
     -- ANONYMISATION gold :
     UPDATE gold.customer
-    SET name = NULL, email = NULL, address = NULL, city = NULL, country = NULL
+    SET name = NULL, email = NULL, city = NULL, country = NULL
     WHERE customer_id IN (SELECT customer_id FROM @ClientsPurge);
     
     -- audit
@@ -325,7 +325,6 @@ BEGIN
     UPDATE gold.customer
     SET name = NULL,
         email = NULL,
-        address = NULL,
         city = NULL,
         country = NULL
     WHERE customer_id = @customer_id;
@@ -369,5 +368,55 @@ BEGIN
         WHERE action_date > @restore_date
             AND action_type IN ("DROIT_OUBLI", "PURGE_INACTIVE_CUSTOMER")
     );
+
+    -- Anonymisation gold :
+    UPDATE gold.customer
+    SET name = NULL,
+        email = NULL,
+        city = NULL,
+        country = NULL
+    WHERE customer_id IN (
+        SELECT customer_id
+        FROM audit_purge
+        WHERE action_date > @restore_date
+            AND action_type IN ("DROIT_OUBLI", "PURGE_INACTIVE_CUSTOMER")
+    );
 END
 GO
+
+-- ROW LEVEL SECURITY 
+
+-- CREATE USER [02cf0af0-f48b-4951-825e-46d65af122bc] WITH PASSWORD = 'StrongPassword123';
+CREATE USER [02cf0af0-f48b-4951-825e-46d65af122bc] WITHOUT LOGIN;
+GO
+GRANT SELECT ON gold.seller TO [02cf0af0-f48b-4951-825e-46d65af122bc];
+GO
+GRANT SELECT ON gold.product TO [02cf0af0-f48b-4951-825e-46d65af122bc];
+GO
+GRANT SELECT ON gold.orders TO [02cf0af0-f48b-4951-825e-46d65af122bc];
+GO
+
+CREATE SCHEMA security;
+GO
+
+CREATE FUNCTION security.fn_filter_by_seller(@seller_id AS VARCHAR(100))
+RETURNS TABLE
+WITH SCHEMABINDING
+AS
+RETURN SELECT 1 AS result
+WHERE 
+    USER_NAME() IN ("sqladmin") 
+   OR @seller_id = USER_NAME();  
+GO
+
+CREATE SECURITY POLICY security.FilterBySeller
+ADD FILTER PREDICATE security.fn_filter_by_seller(seller_id)
+ON gold.seller,
+ADD FILTER PREDICATE security.fn_filter_by_seller(seller_id)
+ON gold.product,
+ADD FILTER PREDICATE security.fn_filter_by_seller(seller_id)
+ON gold.orders
+WITH (STATE = ON);
+GO
+
+
